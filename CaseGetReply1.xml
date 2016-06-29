@@ -1,0 +1,2992 @@
+﻿<CaseGetReply xmlns:im="http://niem.gov/niem/domains/immigration/1.0" xmlns:ec="http://www.crimnet.state.mn.us/ECharging/Schema/1.0" xmlns:j="http://niem.gov/niem/domains/justice/1.0" xmlns:ch="http://www.crimnet.state.mn.us/MNJustice/ExchangeSchema/1.0/CIBRS" xmlns:scr="http://niem.gov/niem/domains/screening/1.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mnj="http://www.crimnet.state.mn.us/MNJustice/ExchangeSchema/1.0" xmlns:c="http://niem.gov/niem/common/1.0" xmlns:s="http://niem.gov/niem/structures/1.0" xmlns:u="http://niem.gov/niem/universal/1.0" messageProducedDateTime="2013-09-12T13:31:13-05:00" schemaVersion="3:4">
+  <CaseRequest xmlns="http://www.courts.state.mn.us/CourtXML/3" caseKey="8912011" caseNumberKey="04CR121223">
+    <CourtFileNumber>
+      <ID>04-CR-12-1223</ID>
+    </CourtFileNumber>
+    <CaseInformation>
+      <CourtCaseHeaderGroup>
+        <CourtFileNumber>
+          <ID>04-CR-12-1223</ID>
+        </CourtFileNumber>
+        <CaseCountyNumber>04</CaseCountyNumber>
+        <CaseLocationText code="MN004015J">Beltrami County</CaseLocationText>
+        <BaseCaseTypeText>Adult</BaseCaseTypeText>
+        <CaseCategoryText code="CR">Criminal</CaseCategoryText>
+        <CaseTitle>State of Minnesota vs JOHN JOSEPH WASLASKI</CaseTitle>
+        <CaseTypeText code="CRM">Crim/Traf Mandatory</CaseTypeText>
+        <CaseFiledDateTime>2012-04-13T00:00:00-05:00</CaseFiledDateTime>
+        <CaseIsConfidential>false</CaseIsConfidential>
+        <CaseIsSealed>false</CaseIsSealed>
+        <CaseIsRestricted>false</CaseIsRestricted>
+        <CaseStatus currentStatusIndicator="true">
+          <CaseStatusText code="R">Reopened</CaseStatusText>
+          <CaseStatusDate>2013-07-22</CaseStatusDate>
+        </CaseStatus>
+        <CaseStatus currentStatusIndicator="false">
+          <CaseStatusText code="COURT">Under Court Jurisdiction</CaseStatusText>
+          <CaseStatusDate>2013-01-15</CaseStatusDate>
+        </CaseStatus>
+        <CaseStatus currentStatusIndicator="false">
+          <CaseStatusText code="O">Open</CaseStatusText>
+          <CaseStatusDate>2012-04-13</CaseStatusDate>
+        </CaseStatus>
+        <AllCountsDisposed>true</AllCountsDisposed>
+        <CaseAssignment currentAssignmentIndicator="true">
+          <CourtFileNumber>
+            <ID>04-CR-12-1223</ID>
+          </CourtFileNumber>
+          <AssignedCourt code="MN004015J">Beltrami County</AssignedCourt>
+          <AssignedDate>2012-04-13</AssignedDate>
+          <AssignedJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </AssignedJudge>
+        </CaseAssignment>
+        <CaseAssignment currentAssignmentIndicator="false">
+          <CourtFileNumber>
+            <ID>04-CR-12-1223</ID>
+          </CourtFileNumber>
+          <AssignedCourt code="MN004015J">Beltrami County</AssignedCourt>
+          <AssignedDate>2012-04-13</AssignedDate>
+          <ReassignmentReason code="INT">Initial Assignment</ReassignmentReason>
+          <ReassignedDate>2012-04-13</ReassignedDate>
+        </CaseAssignment>
+        <CaseFlag>
+          <CaseFlagText code="FINGERPRT">Fingerprints taken</CaseFlagText>
+        </CaseFlag>
+        <CaseFlag>
+          <CaseFlagText code="PROB">Financial Account Monitored by Probation</CaseFlagText>
+          <CaseFlagComment>ends 1/14/18</CaseFlagComment>
+        </CaseFlag>
+        <RelatedCase>
+          <CourtFileNumber>
+            <ID>04-CV-12-2017</ID>
+          </CourtFileNumber>
+          <RelatedCaseReasonText code="Comp">Companion Case</RelatedCaseReasonText>
+          <RelatedCaseReasonComment>CRIMINAL CASE OF JOHN WASLASKI</RelatedCaseReasonComment>
+        </RelatedCase>
+        <RelatedCase>
+          <CourtFileNumber>
+            <ID>04-CR-13-2314</ID>
+          </CourtFileNumber>
+          <RelatedCaseReasonText code="Admin">Administrative</RelatedCaseReasonText>
+          <RelatedCaseReasonComment>TRACKING</RelatedCaseReasonComment>
+        </RelatedCase>
+      </CourtCaseHeaderGroup>
+      <CourtCaseEvent courtCaseEventKey="118599542">
+        <CaseEventText code="SRCHWARR">Search Warrant</CaseEventText>
+        <CaseEventDateTime>2012-04-12T14:38:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="118599543">
+        <CaseEventText code="SRCHWARR">Search Warrant</CaseEventText>
+        <CaseEventDateTime>2012-04-12T14:38:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="118599130">
+        <CaseEventText code="CPORDDET">Complaint-Order for Detention</CaseEventText>
+        <CaseEventDateTime>2012-04-13T14:35:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="118599353">
+        <CaseEventText code="ORRELEASE">Order for Release</CaseEventText>
+        <CaseEventDateTime>2012-04-13T14:37:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="118599354">
+        <CaseEventText code="STRIGHTS">Statement of Rights</CaseEventText>
+        <CaseEventDateTime>2012-04-13T14:37:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="118601597">
+        <CaseEventText code="NOASSIGN">Notice of Case Assignment</CaseEventText>
+        <CaseEventDateTime>2012-04-13T14:39:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="854" />
+        <PartyReference partyKey="1100132" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="118664359">
+        <CaseEventText code="NCBONDPOST">Non-Cash Bond Posted</CaseEventText>
+        <CaseEventDateTime>2012-04-13T14:18:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="118664360">
+        <CaseEventText code="NOT">Notice-Other</CaseEventText>
+        <CaseEventDateTime>2012-04-16T14:18:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>NOTICE TO DISPATCH - ALL CONDITIONS/ORDERS VACATED.</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="120723750">
+        <CaseEventText code="DOC">Other Document</CaseEventText>
+        <CaseEventDateTime>2012-04-16T14:29:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>UA-positive</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="120723751">
+        <CaseEventText code="APPD">Application for Public Defender</CaseEventText>
+        <CaseEventDateTime>2012-05-25T15:14:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>SENT TO JUDGE FOR REVIEW.</CaseEventCommentText>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="120800436">
+        <CaseEventText code="CRS">Correspondence</CaseEventText>
+        <CaseEventDateTime>2012-05-30T15:15:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>REGARDING SUBMITTING TO UA.</CaseEventCommentText>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="120800437">
+        <CaseEventText code="PUBVWNOTE">Publicly Viewable Note to File</CaseEventText>
+        <CaseEventDateTime>2012-06-01T00:00:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>Judge Benshoof would like to see Dfd's 2011 tax returns before making a decision regarding an PD. Called and left a message with Dfd.</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="121389291">
+        <CaseEventText code="CRS">Correspondence</CaseEventText>
+        <CaseEventDateTime>2012-06-12T10:27:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="121389292">
+        <CaseEventText code="ORDENYPD">Order Denying Public Defender</CaseEventText>
+        <CaseEventDateTime>2012-06-13T13:54:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="123296152">
+        <CaseEventText code="RQCONTINUE">Request for Continuance</CaseEventText>
+        <CaseEventDateTime>2012-06-18T12:38:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <CaseEventCommentText>TRYING TO HIRE OWN ATTORNEY</CaseEventCommentText>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="123296153">
+        <CaseEventText code="CRS">Correspondence</CaseEventText>
+        <CaseEventDateTime>2012-07-05T09:41:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>Regarding attorney.</CaseEventCommentText>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="126252663">
+        <CaseEventText code="CRP">Certificate of Representation</CaseEventText>
+        <CaseEventDateTime>2012-07-27T12:46:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="25167" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="126252664">
+        <CaseEventText code="NOASSIGN">Notice of Case Assignment</CaseEventText>
+        <CaseEventDateTime>2012-07-30T09:10:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <PartyReference partyKey="25167" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="126252665">
+        <CaseEventText code="MONOTMO">Notice of Motion and Motion</CaseEventText>
+        <CaseEventDateTime>2012-10-02T12:29:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="25167" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="126252666">
+        <CaseEventText code="AFSERVICE">Affidavit of Service</CaseEventText>
+        <CaseEventDateTime>2012-10-02T12:29:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="25167" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="126431283">
+        <CaseEventText code="BRIEFS">Briefs</CaseEventText>
+        <CaseEventDateTime>2012-10-08T00:00:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <CaseEventDueDate>2012-10-15</CaseEventDueDate>
+        <CaseEventCompletedDate>2012-10-17</CaseEventCompletedDate>
+        <CaseEventCommentText>letter brief</CaseEventCommentText>
+        <PartyReference partyKey="25167" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="126431343">
+        <CaseEventText code="ORSUBMIT">Order for Submissions-Under Advisement</CaseEventText>
+        <CaseEventDateTime>2012-10-08T00:00:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <CaseEventDueDate>2012-10-22</CaseEventDueDate>
+        <CaseEventCompletedDate>2012-10-22</CaseEventCompletedDate>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="127275446">
+        <CaseEventText code="UNDERADV">Taken Under Advisement</CaseEventText>
+        <CaseEventDateTime>2012-10-22T11:51:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <CaseEventDueDate>2012-11-21</CaseEventDueDate>
+        <CaseEventCompletedDate>2012-11-06</CaseEventCompletedDate>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="127308669">
+        <CaseEventText code="BRIEFS">Briefs</CaseEventText>
+        <CaseEventDateTime>2012-10-25T08:40:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="1100132" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="127308670">
+        <CaseEventText code="AFSERVICE">Affidavit of Service</CaseEventText>
+        <CaseEventDateTime>2012-10-25T08:40:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="1100132" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="127831789">
+        <CaseEventText code="ORD">Order-Other</CaseEventText>
+        <CaseEventDateTime>2012-11-06T08:29:00-06:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="127831909">
+        <CaseEventText code="NOFILORD">Notice of Filing of Order</CaseEventText>
+        <CaseEventDateTime>2012-11-07T08:29:00-06:00</CaseEventDateTime>
+        <PartyReference partyKey="25167" />
+        <PartyReference partyKey="1100132" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="129329376">
+        <CaseEventText code="PSO">Order-Presentence Investigation</CaseEventText>
+        <CaseEventDateTime>2012-12-11T11:16:00-06:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="130562381">
+        <CaseEventText code="RPCHEMDEP">Chemical Dependency Evaluation Report</CaseEventText>
+        <CaseEventDateTime>2013-01-07T13:55:00-06:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="129329401">
+        <CaseEventText code="PSF">Presentence Investigation Report</CaseEventText>
+        <CaseEventDateTime>2013-01-09T00:00:00-06:00</CaseEventDateTime>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="130815337">
+        <CaseEventText code="CRMJUDG">Criminal Judgment and Warrant of Commitment</CaseEventText>
+        <CaseEventDateTime>2013-01-15T11:50:00-06:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <CaseEventCommentText>SENTENCE</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="130815338">
+        <CaseEventText code="NOFILORD">Notice of Filing of Order</CaseEventText>
+        <CaseEventDateTime>2013-01-15T11:50:00-06:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <PartyReference partyKey="854" />
+        <PartyReference partyKey="8541965" />
+        <PartyReference partyKey="25167" />
+        <PartyReference partyKey="1100132" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="130815382">
+        <CaseEventText code="NOT">Notice-Other</CaseEventText>
+        <CaseEventDateTime>2013-01-15T11:50:00-06:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <CaseEventCommentText>NOTICE TO DISPATCH - NO ALCOHOL/DRUGS/SUBMIT/SEARCES/ENTER/LAW ABIDING.</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="131385149">
+        <CaseEventText code="CRMJUDG">Criminal Judgment and Warrant of Commitment</CaseEventText>
+        <CaseEventDateTime>2013-01-29T10:48:00-06:00</CaseEventDateTime>
+        <CaseEventCommentText>returned/filed</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="139714029">
+        <CaseEventText code="AGPROBATE">Probation Agreement</CaseEventText>
+        <CaseEventDateTime>2013-02-08T15:39:00-06:00</CaseEventDateTime>
+        <PartyReference partyKey="15016324" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="139714030">
+        <CaseEventText code="RPCHEMDEP">Chemical Dependency Evaluation Report</CaseEventText>
+        <CaseEventDateTime>2013-03-28T15:14:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="139719849">
+        <CaseEventText code="POLINCRPT">Police/Incident Report</CaseEventText>
+        <CaseEventDateTime>2013-07-22T09:39:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="139719850">
+        <CaseEventText code="ORRELEASE">Order for Release</CaseEventText>
+        <CaseEventDateTime>2013-07-22T09:39:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="139719871">
+        <CaseEventText code="NOFILORD">Notice of Filing of Order</CaseEventText>
+        <CaseEventDateTime>2013-07-22T09:39:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <PartyReference partyKey="854" />
+        <PartyReference partyKey="8541965" />
+        <PartyReference partyKey="25167" />
+        <PartyReference partyKey="1100132" />
+        <PartyReference partyKey="15016324" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="140650867">
+        <CaseEventText code="BKPRCC">Booking Process Completed</CaseEventText>
+        <CaseEventDateTime>2013-07-22T00:00:00-05:00</CaseEventDateTime>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="139799263">
+        <CaseEventText code="RPPROBVIOL">Probation Violation Report</CaseEventText>
+        <CaseEventDateTime>2013-07-23T13:11:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <PartyReference partyKey="15016324" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="139799264">
+        <CaseEventText code="OSC">Order to Show Cause</CaseEventText>
+        <CaseEventDateTime>2013-07-24T09:57:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="139799274">
+        <CaseEventText code="NOFILORD">Notice of Filing of Order</CaseEventText>
+        <CaseEventDateTime>2013-07-24T09:57:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="8541965" />
+        <PartyReference partyKey="25167" />
+        <PartyReference partyKey="1100132" />
+        <PartyReference partyKey="15016324" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="140650868">
+        <CaseEventText code="ORD">Order-Other</CaseEventText>
+        <CaseEventDateTime>2013-08-05T09:16:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <CaseEventCommentText>DENIED CHANGE IN BAIL</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="140688798">
+        <CaseEventText code="ORRELEASE">Order for Release</CaseEventText>
+        <CaseEventDateTime>2013-08-13T09:19:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <CaseEventCommentText>AMENDED</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="140688799">
+        <CaseEventText code="NOFILORD">Notice of Filing of Order</CaseEventText>
+        <CaseEventDateTime>2013-08-13T09:19:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <PartyReference partyKey="854" />
+        <PartyReference partyKey="8541965" />
+        <PartyReference partyKey="25167" />
+        <PartyReference partyKey="1100132" />
+        <PartyReference partyKey="15016324" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="142044292">
+        <CaseEventText code="NCBONDPOST">Non-Cash Bond Posted</CaseEventText>
+        <CaseEventDateTime>2013-08-13T12:21:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>original in file cr-13-2314</CaseEventCommentText>
+        <PartyReference partyKey="8541965" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="142044293">
+        <CaseEventText code="RPPROBVIOL">Probation Violation Report</CaseEventText>
+        <CaseEventDateTime>2013-08-21T16:05:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>ADDENDUM</CaseEventCommentText>
+        <PartyReference partyKey="15016324" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="142044294">
+        <CaseEventText code="RQCONTINUE">Request for Continuance</CaseEventText>
+        <CaseEventDateTime>2013-09-03T09:05:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+        <PartyReference partyKey="25167" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="142044295">
+        <CaseEventText code="ORD">Order-Other</CaseEventText>
+        <CaseEventDateTime>2013-09-11T10:11:00-05:00</CaseEventDateTime>
+        <CaseEventJudge>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </CaseEventJudge>
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="142044296">
+        <CaseEventText code="NOFILORD">Notice of Filing of Order</CaseEventText>
+        <CaseEventDateTime>2013-09-12T10:12:00-05:00</CaseEventDateTime>
+        <PartyReference partyKey="854" />
+        <PartyReference partyKey="8541965" />
+        <PartyReference partyKey="25167" />
+        <PartyReference partyKey="1100132" />
+        <PartyReference partyKey="15016324" />
+      </CourtCaseEvent>
+      <CourtCaseEvent courtCaseEventKey="142044396">
+        <CaseEventText code="RPPROBVIOL">Probation Violation Report</CaseEventText>
+        <CaseEventDateTime>2013-09-12T10:13:00-05:00</CaseEventDateTime>
+        <CaseEventCommentText>ADDENDUM</CaseEventCommentText>
+      </CourtCaseEvent>
+      <CasePartyRelation>
+        <PartyReference partyKey="854" />
+        <PartyCaseAssociationText code="JRD">Jurisdiction</PartyCaseAssociationText>
+      </CasePartyRelation>
+      <CasePartyRelation>
+        <PartyReference partyKey="8541965" />
+        <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+      </CasePartyRelation>
+      <CasePartyRelation>
+        <PartyReference partyKey="15016324" />
+        <PartyCaseAssociationText code="PRB">Probation Officer</PartyCaseAssociationText>
+      </CasePartyRelation>
+      <Attorney partyKey="1100132">
+        <PartyName currentNameIndicator="true">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>DAVID</PersonGivenName>
+            <PersonMiddleName>PAUL</PersonMiddleName>
+            <PersonSurName>FRANK</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>FRANK, DAVID PAUL</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressUSStandard>
+            <AddressStreetNumber>600</AddressStreetNumber>
+            <AddressPreDirectional xsi:nil="true" />
+            <AddressStreet>Minnesota</AddressStreet>
+            <AddressStreetType code="AVE">Avenue</AddressStreetType>
+            <AddressPostDirectional code="NW">Northwest</AddressPostDirectional>
+            <AddressUnit>
+              <AddressUnitType code="STE">Suite</AddressUnitType>
+              <AddressUnitNumber>400</AddressUnitNumber>
+            </AddressUnit>
+            <AddressCity>Bemidji</AddressCity>
+            <AddressState>MN</AddressState>
+            <AddressZipCode>566013037</AddressZipCode>
+          </AddressUSStandard>
+        </PartyAddress>
+        <PartyTelephoneNumber telephoneNumberUsageText="Work" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="false">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>759</TelephoneExchangeID>
+          <TelephoneSubscriberID>4219</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-759-4219</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PartyTelephoneNumber telephoneNumberUsageText="Work" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>333</TelephoneExchangeID>
+          <TelephoneSubscriberID>4219</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-333-4219</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <AttorneyBarNumber>
+          <ID>236524</ID>
+        </AttorneyBarNumber>
+      </Attorney>
+      <Attorney partyKey="25167">
+        <PartyName currentNameIndicator="true">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>BLAIR</PersonGivenName>
+            <PersonMiddleName>WILLIAM</PersonMiddleName>
+            <PersonSurName>NELSON</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>NELSON, BLAIR WILLIAM</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressUSNonStandard>
+            <AddressLine1>205 7TH ST NW STE 3</AddressLine1>
+            <AddressCity>BEMIDJI</AddressCity>
+            <AddressState>MN</AddressState>
+            <AddressZipCode>56601</AddressZipCode>
+          </AddressUSNonStandard>
+        </PartyAddress>
+        <PartyTelephoneNumber telephoneNumberUsageText="Work" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>444</TelephoneExchangeID>
+          <TelephoneSubscriberID>4531</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-444-4531</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PartyTelephoneNumber telephoneNumberUsageText="Work" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="false">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>755</TelephoneExchangeID>
+          <TelephoneSubscriberID>1746</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-755-1746</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PartyTelephoneNumber telephoneNumberUsageText="Fax" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>444</TelephoneExchangeID>
+          <TelephoneSubscriberID>6531</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-444-6531</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <AttorneyBarNumber>
+          <ID>272309</ID>
+        </AttorneyBarNumber>
+      </Attorney>
+      <CaseProsecutor partyKey="1100132">
+        <PartyName currentNameIndicator="true">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>DAVID</PersonGivenName>
+            <PersonMiddleName>PAUL</PersonMiddleName>
+            <PersonSurName>FRANK</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>FRANK, DAVID PAUL</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressUSStandard>
+            <AddressStreetNumber>600</AddressStreetNumber>
+            <AddressPreDirectional xsi:nil="true" />
+            <AddressStreet>Minnesota</AddressStreet>
+            <AddressStreetType code="AVE">Avenue</AddressStreetType>
+            <AddressPostDirectional code="NW">Northwest</AddressPostDirectional>
+            <AddressUnit>
+              <AddressUnitType code="STE">Suite</AddressUnitType>
+              <AddressUnitNumber>400</AddressUnitNumber>
+            </AddressUnit>
+            <AddressCity>Bemidji</AddressCity>
+            <AddressState>MN</AddressState>
+            <AddressZipCode>566013037</AddressZipCode>
+          </AddressUSStandard>
+        </PartyAddress>
+        <PartyTelephoneNumber telephoneNumberUsageText="Work" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="false">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>759</TelephoneExchangeID>
+          <TelephoneSubscriberID>4219</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-759-4219</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PartyTelephoneNumber telephoneNumberUsageText="Work" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>333</TelephoneExchangeID>
+          <TelephoneSubscriberID>4219</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-333-4219</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <AttorneyBarNumber>
+          <ID>236524</ID>
+        </AttorneyBarNumber>
+      </CaseProsecutor>
+      <PartyToTheAction partyKey="854">
+        <PartyName currentNameIndicator="true">
+          <BusinessName>State of Minnesota</BusinessName>
+        </PartyName>
+        <PartyName currentNameIndicator="false">
+          <BusinessName>The State of Minnesota</BusinessName>
+        </PartyName>
+        <PartyCaseAssociationText code="JRD">Jurisdiction</PartyCaseAssociationText>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressForeign>
+            <AddressLine1>NONE</AddressLine1>
+          </AddressForeign>
+        </PartyAddress>
+        <RepresentedBy>
+          <AttorneyReference partyKey="1100132" leadAttorneyIndicator="true">
+            <AttorneyBarNumber>
+              <ID>236524</ID>
+            </AttorneyBarNumber>
+          </AttorneyReference>
+        </RepresentedBy>
+      </PartyToTheAction>
+      <PartyToTheAction partyKey="8541965">
+        <PartyName currentNameIndicator="true">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>JOHN</PersonGivenName>
+            <PersonMiddleName>JOSEPH</PersonMiddleName>
+            <PersonSurName>WASLASKI</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>WASLASKI, JOHN JOSEPH</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressUSNonStandard>
+            <AddressLine1>6568 Mac Court</AddressLine1>
+            <AddressCity>Bemidji</AddressCity>
+            <AddressState>MN</AddressState>
+            <AddressZipCode>56601</AddressZipCode>
+          </AddressUSNonStandard>
+        </PartyAddress>
+        <PartyTelephoneNumber telephoneNumberUsageText="Home" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>407</TelephoneExchangeID>
+          <TelephoneSubscriberID>0112</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-407-0112</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <RepresentedBy>
+          <AttorneyReference partyKey="25167" leadAttorneyIndicator="true">
+            <AttorneyBarNumber>
+              <ID>272309</ID>
+            </AttorneyBarNumber>
+          </AttorneyReference>
+        </RepresentedBy>
+      </PartyToTheAction>
+      <PartyToTheAction partyKey="15016324">
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>04Amanda</PersonGivenName>
+            <PersonSurName>Anderson</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Anderson, 04Amanda</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="true">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Amanda</PersonGivenName>
+            <PersonSurName>Anderson</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Anderson, Amanda</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyCaseAssociationText code="PRB">Probation Officer</PartyCaseAssociationText>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressUSNonStandard>
+            <AddressLine1>DOC</AddressLine1>
+            <AddressLine2>619 Beltrami Avenue</AddressLine2>
+            <AddressCity>Bemidji</AddressCity>
+            <AddressState>MN</AddressState>
+            <AddressZipCode>56601</AddressZipCode>
+          </AddressUSNonStandard>
+        </PartyAddress>
+      </PartyToTheAction>
+      <SubjectParties>
+        <CaseDefendant partyKey="8541965">
+          <PartyName currentNameIndicator="true">
+            <PersonName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>JOHN</PersonGivenName>
+              <PersonMiddleName>JOSEPH</PersonMiddleName>
+              <PersonSurName>WASLASKI</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>WASLASKI, JOHN JOSEPH</PersonFullName>
+            </PersonName>
+          </PartyName>
+          <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+          <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+            <AddressUSNonStandard>
+              <AddressLine1>6568 Mac Court</AddressLine1>
+              <AddressCity>Bemidji</AddressCity>
+              <AddressState>MN</AddressState>
+              <AddressZipCode>56601</AddressZipCode>
+            </AddressUSNonStandard>
+          </PartyAddress>
+          <PartyTelephoneNumber telephoneNumberUsageText="Home" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+            <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+            <TelephoneExchangeID>407</TelephoneExchangeID>
+            <TelephoneSubscriberID>0112</TelephoneSubscriberID>
+            <TelephoneNumberFullID>218-407-0112</TelephoneNumberFullID>
+          </PartyTelephoneNumber>
+          <PersonBirthDate currentBirthdate="true">1973-12-15</PersonBirthDate>
+          <InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+          <PersonAssignedIDDetails>
+            <PersonID>
+              <ID>3384363</ID>
+            </PersonID>
+            <PersonDriverLicenseID currentKnownIndicator="false">
+              <ID>W-242-429-441-952</ID>
+              <IDJurisdictionCode>MN</IDJurisdictionCode>
+            </PersonDriverLicenseID>
+            <PersonDriverLicenseID currentKnownIndicator="true">
+              <ID>G-207-003-884-209</ID>
+              <IDJurisdictionCode>MN</IDJurisdictionCode>
+            </PersonDriverLicenseID>
+            <PersonStateID currentKnownIndicator="true">
+              <ID>00412602</ID>
+              <IDJurisdictionCode>MN</IDJurisdictionCode>
+            </PersonStateID>
+          </PersonAssignedIDDetails>
+          <PersonPhysicalDetails>
+            <PersonHeightMeasure measureUnitText="Inches">67</PersonHeightMeasure>
+            <PersonWeightMeasure measureUnitText="Pounds">155</PersonWeightMeasure>
+            <PersonEyeColorText code="GRN">Green</PersonEyeColorText>
+            <PersonHairColorText xsi:nil="true" />
+            <PersonSexText code="M">Male</PersonSexText>
+            <PersonEthnicity xsi:nil="true" />
+            <PersonRace xsi:nil="true" />
+            <PersonComplexionText xsi:nil="true" />
+          </PersonPhysicalDetails>
+          <RepresentedBy>
+            <AttorneyReference partyKey="25167" leadAttorneyIndicator="true">
+              <AttorneyBarNumber>
+                <ID>272309</ID>
+              </AttorneyBarNumber>
+            </AttorneyReference>
+          </RepresentedBy>
+        </CaseDefendant>
+        <CasePetitionerPlaintiff partyKey="854">
+          <PartyName currentNameIndicator="true">
+            <BusinessName>State of Minnesota</BusinessName>
+          </PartyName>
+          <PartyName currentNameIndicator="false">
+            <BusinessName>The State of Minnesota</BusinessName>
+          </PartyName>
+          <PartyCaseAssociationText code="JRD">Jurisdiction</PartyCaseAssociationText>
+          <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+            <AddressForeign>
+              <AddressLine1>NONE</AddressLine1>
+            </AddressForeign>
+          </PartyAddress>
+          <RepresentedBy>
+            <AttorneyReference partyKey="1100132" leadAttorneyIndicator="true">
+              <AttorneyBarNumber>
+                <ID>236524</ID>
+              </AttorneyBarNumber>
+            </AttorneyReference>
+          </RepresentedBy>
+        </CasePetitionerPlaintiff>
+      </SubjectParties>
+      <HearingTrialSetting hearingKey="118599131">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="FAP">First Appearance</HearingTypeText>
+        <Setting settingKey="19169878">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2798275">04 SS In Custody Arraignments</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-04-13T11:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00860E</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Shari</PersonGivenName>
+              <PersonMiddleName>R.</PersonMiddleName>
+              <PersonSurName>Schluchter</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Schluchter, Shari R.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="FAP">First Appearance</HearingTypeText>
+            <HearingResultCommentText>FAVER FOR THE STATE.</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="118599234">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="IAP">Initial Appearance - Rule 8</HearingTypeText>
+        <Setting settingKey="19169890">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2701236">04 JM Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-04-23T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00800A</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>John</PersonGivenName>
+              <PersonMiddleName>G.</PersonMiddleName>
+              <PersonSurName>Melbye</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Melbye, John G.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="HRG">Hearing</HearingTypeText>
+            <HearingResultCommentText>BURG FOR THE STATE.</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="118960597">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="IAP">Initial Appearance - Rule 8</HearingTypeText>
+        <Setting settingKey="19222585">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2740719">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-05-07T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="HRG">Hearing</HearingTypeText>
+            <HearingResultCommentText>FAVER FOR THE STATE.</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="119601167">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="IAP">Initial Appearance - Rule 8</HearingTypeText>
+        <Setting settingKey="19313425">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2791251">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-05-29T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="HRG">Hearing</HearingTypeText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="120723703">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="IAP">Initial Appearance - Rule 8</HearingTypeText>
+        <Setting settingKey="19469992">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2794744">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-06-18T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="HRG">Hearing</HearingTypeText>
+            <HearingResultCommentText>BURG FOR THE STATE.</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="121504187">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="IAP">Initial Appearance - Rule 8</HearingTypeText>
+        <Setting settingKey="19578782">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2841659">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-07-09T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="HRG">Hearing</HearingTypeText>
+            <HearingResultCommentText>FAVER FOR THE STATE</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="122453564">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="IAP">Initial Appearance - Rule 8</HearingTypeText>
+        <Setting settingKey="19707763">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2796717">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-07-30T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="IAP">Initial Appearance - Rule 8</HearingTypeText>
+            <HearingResultCommentText>BURDICK APPEARED ON BEHALF OF STATE</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="123329272">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="OMN">Omnibus Hearing</HearingTypeText>
+        <Setting settingKey="19825357">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2839662">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-08-20T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="HRG">Hearing</HearingTypeText>
+            <HearingResultCommentText>BURDICK FOR THE STATE</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="124262941">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="COH">Contested Omnibus</HearingTypeText>
+        <Setting settingKey="19955584">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2794105">04 PB Contested Omnibus</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-10-02T13:30:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR4">Court Room 3 South</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="HRG">Hearing</HearingTypeText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="126252531">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="COH">Contested Omnibus</HearingTypeText>
+        <Setting settingKey="20227428">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2914807">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-10-08T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="COH">Contested Omnibus</HearingTypeText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="127831936">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="PLE">Plea Hearing</HearingTypeText>
+        <Setting settingKey="20439104">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2823809">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-11-13T09:00:00-06:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="PLE">Plea Hearing</HearingTypeText>
+            <HearingResultCommentText>FAVER FOR STATE.</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="128101164">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="PRE">Pre-trial</HearingTypeText>
+        <Setting settingKey="20474315">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2935439">04 PB Calendar Call -G &amp; Fel</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2012-12-11T09:00:00-06:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR4">Court Room 3 South</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="PLE">Plea Hearing</HearingTypeText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="129329348">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="SNT">Sentencing</HearingTypeText>
+        <Setting settingKey="20626997">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="2935729">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2013-01-14T09:00:00-06:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="SNT">Sentencing</HearingTypeText>
+            <HearingResultCommentText>FAVER APPEARED ON BEHALF OF STATE</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="139651149">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="BHG">Bail Hearing</HearingTypeText>
+        <Setting settingKey="21964361">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="3230445">04 SS In Custody Arraignments</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2013-07-22T11:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00860E</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Shari</PersonGivenName>
+              <PersonMiddleName>R.</PersonMiddleName>
+              <PersonSurName>Schluchter</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Schluchter, Shari R.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="BHG">Bail Hearing</HearingTypeText>
+            <HearingResultCommentText>NELSON APPEARED ON BEHALF OF STATE</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="139713908">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+        <Setting settingKey="21972285">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="3181321">04 JM Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2013-07-29T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00800A</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>John</PersonGivenName>
+              <PersonMiddleName>G.</PersonMiddleName>
+              <PersonSurName>Melbye</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Melbye, John G.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+            <HearingResultCommentText>FAVER APPEARED ON BEHALF OF STATE</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="140095865">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+        <Setting settingKey="22018036">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="3206136">04 SS CR Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2013-08-05T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00860E</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Shari</PersonGivenName>
+              <PersonMiddleName>R.</PersonMiddleName>
+              <PersonSurName>Schluchter</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Schluchter, Shari R.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+            <HearingResultCommentText>HUESBY FOR THE STATE.</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="140286967">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+        <Setting settingKey="22041295">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="3243361">04 PB Special Term (cont)</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2013-08-12T14:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="140650957">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+        <Setting settingKey="22086323">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="3222824">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2013-09-03T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Held</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+          <Held>
+            <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+            <HearingResultCommentText>FAVER APPEARED ON BEHALF OF STATE</HearingResultCommentText>
+          </Held>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="141582416">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="PVH">Probation Violation Hearing</HearingTypeText>
+        <Setting settingKey="22199340">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="3213309">04 PB Special Term</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2013-09-23T09:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Scheduled</SettingStatus>
+          <HearingLocation code="04CR1">Court Room 1</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+        </Setting>
+      </HearingTrialSetting>
+      <HearingTrialSetting hearingKey="142044397">
+        <CourtName code="MN004015J">Beltrami County</CourtName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+        <HearingTypeText code="BHG">Bail Hearing</HearingTypeText>
+        <Setting settingKey="22251856">
+          <CourtCalendarNameText code="04CAL">Beltrami County</CourtCalendarNameText>
+          <CourtSessionNameText sessionKey="3276539">04 JM In Custody Arraignments</CourtSessionNameText>
+          <HearingDateTimes>
+            <HearingDatetimeStart>2013-09-12T11:00:00-05:00</HearingDatetimeStart>
+          </HearingDateTimes>
+          <SettingStatus>Scheduled</SettingStatus>
+          <HearingLocation code="04CR3">Court Room 2 North</HearingLocation>
+          <PresidingJudge>
+            <JudgeID>
+              <ID>00800A</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>John</PersonGivenName>
+              <PersonMiddleName>G.</PersonMiddleName>
+              <PersonSurName>Melbye</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Melbye, John G.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PresidingJudge>
+          <InterpreterRequired>false</InterpreterRequired>
+        </Setting>
+      </HearingTrialSetting>
+      <ChargeDispositions>
+        <ChargeDisposition chargeKey="8558904">
+          <Charge chargeVersionKey="36771467" chargeKey="8558904">
+            <ChargeSequenceID>
+              <ID>1</ID>
+            </ChargeSequenceID>
+            <ChargeFiledDate>2012-04-13</ChargeFiledDate>
+            <Offense>
+              <OffenseDate>2012-04-11</OffenseDate>
+              <OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+            </Offense>
+            <Report>
+              <ReportingAgencyORI>
+                <ID>MN0040000</ID>
+              </ReportingAgencyORI>
+              <ReportingAgencyControlNumber>
+                <ID>15002274</ID>
+              </ReportingAgencyControlNumber>
+            </Report>
+            <ProsecutingAgencyORI>
+              <ID>MN004013A</ID>
+            </ProsecutingAgencyORI>
+            <ChargeStatuteOrdinanceRule type="Statute">
+              <Statute>
+                <StatuteID>
+                  <ID>12936</ID>
+                </StatuteID>
+                <StatuteOrdinanceRuleCite>152.025.2(a)(1)</StatuteOrdinanceRuleCite>
+                <ChargeDescriptionText>Drugs - 5th Degree - Possess Schedule 1,2,3,4 - Not Small Amount Marijuana</ChargeDescriptionText>
+              </Statute>
+              <SeverityLevelText code="FEL">Felony</SeverityLevelText>
+              <GeneralOffenseCodeText code="N">Not applicable - GOC</GeneralOffenseCodeText>
+              <MinnesotaOffenseCode>DH5C8</MinnesotaOffenseCode>
+              <ChargeLegalDescriptionText>Drugs - 5th Degree - Possess Schedule 1,2,3,4 - Not Small Amount Marijuana</ChargeLegalDescriptionText>
+            </ChargeStatuteOrdinanceRule>
+            <ChargeStatuteSupplemental type="Statute">
+              <StatuteTypeText code="PEN">Penalty</StatuteTypeText>
+              <Statute>
+                <StatuteID>
+                  <ID>12935</ID>
+                </StatuteID>
+                <StatuteOrdinanceRuleCite>152.025.2(a)</StatuteOrdinanceRuleCite>
+                <ChargeDescriptionText>Drugs - 5th Degree - Possession - Penalty</ChargeDescriptionText>
+              </Statute>
+              <SeverityLevelText code="FEL">Felony</SeverityLevelText>
+              <ChargeLegalDescriptionText>Drugs - 5th Degree - Possession - Penalty</ChargeLegalDescriptionText>
+            </ChargeStatuteSupplemental>
+            <CommunityOfOffenseText code="04BELCTY">Beltrami County</CommunityOfOffenseText>
+            <AccidentDamageText xsi:nil="true" />
+            <ChargeSubjectReference partyKey="8541965" />
+            <ChargePlea>
+              <PleaDate>2012-12-11</PleaDate>
+              <PleaJudge>
+                <JudgeID>
+                  <ID>00081G</ID>
+                </JudgeID>
+                <JudgeName>
+                  <PersonPrefixName xsi:nil="true" />
+                  <PersonGivenName>Paul</PersonGivenName>
+                  <PersonMiddleName>T.</PersonMiddleName>
+                  <PersonSurName>Benshoof</PersonSurName>
+                  <PersonSuffixName xsi:nil="true" />
+                  <PersonFullName>Benshoof, Paul T.</PersonFullName>
+                </JudgeName>
+                <JudicialAgencyORI>
+                  <ID>MN004015J</ID>
+                </JudicialAgencyORI>
+              </PleaJudge>
+              <PleaDescriptionText code="GUI">Guilty</PleaDescriptionText>
+              <PleaAmended>
+                <PleaAmendedReasonText code="PLWITHDEF">Plea withdrawn by defendant</PleaAmendedReasonText>
+                <PleaAmendedDate>2012-12-11</PleaAmendedDate>
+              </PleaAmended>
+            </ChargePlea>
+          </Charge>
+          <DispositionEvent>
+            <ChargeDispositionDate>2013-01-14</ChargeDispositionDate>
+            <ChargeDispositionJudge>
+              <JudgeID>
+                <ID>00081G</ID>
+              </JudgeID>
+              <JudgeName>
+                <PersonPrefixName xsi:nil="true" />
+                <PersonGivenName>Paul</PersonGivenName>
+                <PersonMiddleName>T.</PersonMiddleName>
+                <PersonSurName>Benshoof</PersonSurName>
+                <PersonSuffixName xsi:nil="true" />
+                <PersonFullName>Benshoof, Paul T.</PersonFullName>
+              </JudgeName>
+              <JudicialAgencyORI>
+                <ID>MN004015J</ID>
+              </JudicialAgencyORI>
+            </ChargeDispositionJudge>
+            <ChargeDispositionText code="PROB">Statutory stay of adjudication</ChargeDispositionText>
+            <ChargeDispositionSeverityLevel code="FEL">Felony</ChargeDispositionSeverityLevel>
+          </DispositionEvent>
+          <CaseDefendant partyKey="8541965">
+            <PartyName currentNameIndicator="true">
+              <PersonName>
+                <PersonPrefixName xsi:nil="true" />
+                <PersonGivenName>JOHN</PersonGivenName>
+                <PersonMiddleName>JOSEPH</PersonMiddleName>
+                <PersonSurName>WASLASKI</PersonSurName>
+                <PersonSuffixName xsi:nil="true" />
+                <PersonFullName>WASLASKI, JOHN JOSEPH</PersonFullName>
+              </PersonName>
+            </PartyName>
+            <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+            <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+              <AddressUSNonStandard>
+                <AddressLine1>6568 Mac Court</AddressLine1>
+                <AddressCity>Bemidji</AddressCity>
+                <AddressState>MN</AddressState>
+                <AddressZipCode>56601</AddressZipCode>
+              </AddressUSNonStandard>
+            </PartyAddress>
+            <PartyTelephoneNumber telephoneNumberUsageText="Home" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+              <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+              <TelephoneExchangeID>407</TelephoneExchangeID>
+              <TelephoneSubscriberID>0112</TelephoneSubscriberID>
+              <TelephoneNumberFullID>218-407-0112</TelephoneNumberFullID>
+            </PartyTelephoneNumber>
+            <PersonBirthDate currentBirthdate="true">1973-12-15</PersonBirthDate>
+            <InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+            <PersonAssignedIDDetails>
+              <PersonID>
+                <ID>3384363</ID>
+              </PersonID>
+              <PersonDriverLicenseID currentKnownIndicator="false">
+                <ID>W-242-429-441-952</ID>
+                <IDJurisdictionCode>MN</IDJurisdictionCode>
+              </PersonDriverLicenseID>
+              <PersonDriverLicenseID currentKnownIndicator="true">
+                <ID>G-207-003-884-209</ID>
+                <IDJurisdictionCode>MN</IDJurisdictionCode>
+              </PersonDriverLicenseID>
+              <PersonStateID currentKnownIndicator="true">
+                <ID>00412602</ID>
+                <IDJurisdictionCode>MN</IDJurisdictionCode>
+              </PersonStateID>
+            </PersonAssignedIDDetails>
+            <PersonPhysicalDetails>
+              <PersonHeightMeasure measureUnitText="Inches">67</PersonHeightMeasure>
+              <PersonWeightMeasure measureUnitText="Pounds">155</PersonWeightMeasure>
+              <PersonEyeColorText code="GRN">Green</PersonEyeColorText>
+              <PersonHairColorText xsi:nil="true" />
+              <PersonSexText code="M">Male</PersonSexText>
+              <PersonEthnicity xsi:nil="true" />
+              <PersonRace xsi:nil="true" />
+              <PersonComplexionText xsi:nil="true" />
+            </PersonPhysicalDetails>
+            <RepresentedBy>
+              <AttorneyReference partyKey="25167" leadAttorneyIndicator="true">
+                <AttorneyBarNumber>
+                  <ID>272309</ID>
+                </AttorneyBarNumber>
+              </AttorneyReference>
+            </RepresentedBy>
+          </CaseDefendant>
+        </ChargeDisposition>
+        <ChargeDisposition chargeKey="8558905">
+          <Charge chargeVersionKey="36792882" chargeKey="8558905">
+            <ChargeSequenceID>
+              <ID>2</ID>
+            </ChargeSequenceID>
+            <ChargeFiledDate>2012-04-13</ChargeFiledDate>
+            <Offense>
+              <OffenseDate>2012-04-11</OffenseDate>
+              <OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+            </Offense>
+            <Report>
+              <ReportingAgencyORI>
+                <ID>MN0040000</ID>
+              </ReportingAgencyORI>
+              <ReportingAgencyControlNumber>
+                <ID>15002274</ID>
+              </ReportingAgencyControlNumber>
+            </Report>
+            <ProsecutingAgencyORI>
+              <ID>MN004013A</ID>
+            </ProsecutingAgencyORI>
+            <ChargeStatuteOrdinanceRule type="Statute">
+              <Statute>
+                <StatuteID>
+                  <ID>1350</ID>
+                </StatuteID>
+                <StatuteOrdinanceRuleCite>609.53.1</StatuteOrdinanceRuleCite>
+                <ChargeDescriptionText>Receiving Stolen Property</ChargeDescriptionText>
+              </Statute>
+              <SeverityLevelText code="MSD">Misdemeanor</SeverityLevelText>
+              <GeneralOffenseCodeText code="N">Not applicable - GOC</GeneralOffenseCodeText>
+              <MinnesotaOffenseCode>Q3290</MinnesotaOffenseCode>
+              <ChargeLegalDescriptionText>Receiving Stolen Property</ChargeLegalDescriptionText>
+            </ChargeStatuteOrdinanceRule>
+            <ChargeStatuteSupplemental type="Statute">
+              <StatuteTypeText code="PEN">Penalty</StatuteTypeText>
+              <Statute>
+                <StatuteID>
+                  <ID>1370</ID>
+                </StatuteID>
+                <StatuteOrdinanceRuleCite>609.535.2a(a)(3)</StatuteOrdinanceRuleCite>
+                <ChargeDescriptionText>Issue Dishonored Check-Value Not More Than $250</ChargeDescriptionText>
+              </Statute>
+              <SeverityLevelText code="MSD">Misdemeanor</SeverityLevelText>
+              <ChargeLegalDescriptionText>Issue Dishonored Check-Value Not More Than $250</ChargeLegalDescriptionText>
+            </ChargeStatuteSupplemental>
+            <CommunityOfOffenseText code="04BELCTY">Beltrami County</CommunityOfOffenseText>
+            <AccidentDamageText xsi:nil="true" />
+            <ChargeSubjectReference partyKey="8541965" />
+            <ChargePlea>
+              <PleaDate>2012-11-13</PleaDate>
+              <PleaJudge>
+                <JudgeID>
+                  <ID>00081G</ID>
+                </JudgeID>
+                <JudgeName>
+                  <PersonPrefixName xsi:nil="true" />
+                  <PersonGivenName>Paul</PersonGivenName>
+                  <PersonMiddleName>T.</PersonMiddleName>
+                  <PersonSurName>Benshoof</PersonSurName>
+                  <PersonSuffixName xsi:nil="true" />
+                  <PersonFullName>Benshoof, Paul T.</PersonFullName>
+                </JudgeName>
+                <JudicialAgencyORI>
+                  <ID>MN004015J</ID>
+                </JudicialAgencyORI>
+              </PleaJudge>
+              <PleaDescriptionText code="NGUI">Not guilty</PleaDescriptionText>
+            </ChargePlea>
+          </Charge>
+          <DispositionEvent>
+            <ChargeDispositionDate>2013-01-14</ChargeDispositionDate>
+            <ChargeDispositionJudge>
+              <JudgeID>
+                <ID>00081G</ID>
+              </JudgeID>
+              <JudgeName>
+                <PersonPrefixName xsi:nil="true" />
+                <PersonGivenName>Paul</PersonGivenName>
+                <PersonMiddleName>T.</PersonMiddleName>
+                <PersonSurName>Benshoof</PersonSurName>
+                <PersonSuffixName xsi:nil="true" />
+                <PersonFullName>Benshoof, Paul T.</PersonFullName>
+              </JudgeName>
+              <JudicialAgencyORI>
+                <ID>MN004015J</ID>
+              </JudicialAgencyORI>
+            </ChargeDispositionJudge>
+            <ChargeDispositionText code="DISMISS">Dismissed</ChargeDispositionText>
+            <ChargeDispositionSeverityLevel code="MSD">Misdemeanor</ChargeDispositionSeverityLevel>
+          </DispositionEvent>
+          <CaseDefendant partyKey="8541965">
+            <PartyName currentNameIndicator="true">
+              <PersonName>
+                <PersonPrefixName xsi:nil="true" />
+                <PersonGivenName>JOHN</PersonGivenName>
+                <PersonMiddleName>JOSEPH</PersonMiddleName>
+                <PersonSurName>WASLASKI</PersonSurName>
+                <PersonSuffixName xsi:nil="true" />
+                <PersonFullName>WASLASKI, JOHN JOSEPH</PersonFullName>
+              </PersonName>
+            </PartyName>
+            <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+            <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+              <AddressUSNonStandard>
+                <AddressLine1>6568 Mac Court</AddressLine1>
+                <AddressCity>Bemidji</AddressCity>
+                <AddressState>MN</AddressState>
+                <AddressZipCode>56601</AddressZipCode>
+              </AddressUSNonStandard>
+            </PartyAddress>
+            <PartyTelephoneNumber telephoneNumberUsageText="Home" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+              <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+              <TelephoneExchangeID>407</TelephoneExchangeID>
+              <TelephoneSubscriberID>0112</TelephoneSubscriberID>
+              <TelephoneNumberFullID>218-407-0112</TelephoneNumberFullID>
+            </PartyTelephoneNumber>
+            <PersonBirthDate currentBirthdate="true">1973-12-15</PersonBirthDate>
+            <InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+            <PersonAssignedIDDetails>
+              <PersonID>
+                <ID>3384363</ID>
+              </PersonID>
+              <PersonDriverLicenseID currentKnownIndicator="false">
+                <ID>W-242-429-441-952</ID>
+                <IDJurisdictionCode>MN</IDJurisdictionCode>
+              </PersonDriverLicenseID>
+              <PersonDriverLicenseID currentKnownIndicator="true">
+                <ID>G-207-003-884-209</ID>
+                <IDJurisdictionCode>MN</IDJurisdictionCode>
+              </PersonDriverLicenseID>
+              <PersonStateID currentKnownIndicator="true">
+                <ID>00412602</ID>
+                <IDJurisdictionCode>MN</IDJurisdictionCode>
+              </PersonStateID>
+            </PersonAssignedIDDetails>
+            <PersonPhysicalDetails>
+              <PersonHeightMeasure measureUnitText="Inches">67</PersonHeightMeasure>
+              <PersonWeightMeasure measureUnitText="Pounds">155</PersonWeightMeasure>
+              <PersonEyeColorText code="GRN">Green</PersonEyeColorText>
+              <PersonHairColorText xsi:nil="true" />
+              <PersonSexText code="M">Male</PersonSexText>
+              <PersonEthnicity xsi:nil="true" />
+              <PersonRace xsi:nil="true" />
+              <PersonComplexionText xsi:nil="true" />
+            </PersonPhysicalDetails>
+            <RepresentedBy>
+              <AttorneyReference partyKey="25167" leadAttorneyIndicator="true">
+                <AttorneyBarNumber>
+                  <ID>272309</ID>
+                </AttorneyBarNumber>
+              </AttorneyReference>
+            </RepresentedBy>
+          </CaseDefendant>
+        </ChargeDisposition>
+      </ChargeDispositions>
+      <CourtDecisions>
+        <AdultSentence sentenceEventKey="130724036" sentenceDelinquencyDispositionKey="6648871">
+          <PronouncedDate>2013-01-14</PronouncedDate>
+          <SentenceEventText code="CONT">Continued</SentenceEventText>
+          <PronouncingJudge>
+            <JudgeID>
+              <ID>00081G</ID>
+            </JudgeID>
+            <JudgeName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>Paul</PersonGivenName>
+              <PersonMiddleName>T.</PersonMiddleName>
+              <PersonSurName>Benshoof</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>Benshoof, Paul T.</PersonFullName>
+            </JudgeName>
+            <JudicialAgencyORI>
+              <ID>MN004015J</ID>
+            </JudicialAgencyORI>
+          </PronouncingJudge>
+          <Charges>
+            <ChargeDisposition chargeKey="8558904">
+              <Charge chargeVersionKey="36771467" chargeKey="8558904">
+                <ChargeSequenceID>
+                  <ID>1</ID>
+                </ChargeSequenceID>
+                <ChargeFiledDate>2012-04-13</ChargeFiledDate>
+                <Offense>
+                  <OffenseDate>2012-04-11</OffenseDate>
+                  <OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+                </Offense>
+                <Report>
+                  <ReportingAgencyORI>
+                    <ID>MN0040000</ID>
+                  </ReportingAgencyORI>
+                  <ReportingAgencyControlNumber>
+                    <ID>15002274</ID>
+                  </ReportingAgencyControlNumber>
+                </Report>
+                <ProsecutingAgencyORI>
+                  <ID>MN004013A</ID>
+                </ProsecutingAgencyORI>
+                <ChargeStatuteOrdinanceRule type="Statute">
+                  <Statute>
+                    <StatuteID>
+                      <ID>12936</ID>
+                    </StatuteID>
+                    <StatuteOrdinanceRuleCite>152.025.2(a)(1)</StatuteOrdinanceRuleCite>
+                    <ChargeDescriptionText>Drugs - 5th Degree - Possess Schedule 1,2,3,4 - Not Small Amount Marijuana</ChargeDescriptionText>
+                  </Statute>
+                  <SeverityLevelText code="FEL">Felony</SeverityLevelText>
+                  <GeneralOffenseCodeText code="N">Not applicable - GOC</GeneralOffenseCodeText>
+                  <MinnesotaOffenseCode>DH5C8</MinnesotaOffenseCode>
+                  <ChargeLegalDescriptionText>Drugs - 5th Degree - Possess Schedule 1,2,3,4 - Not Small Amount Marijuana</ChargeLegalDescriptionText>
+                </ChargeStatuteOrdinanceRule>
+                <ChargeStatuteSupplemental type="Statute">
+                  <StatuteTypeText code="PEN">Penalty</StatuteTypeText>
+                  <Statute>
+                    <StatuteID>
+                      <ID>12935</ID>
+                    </StatuteID>
+                    <StatuteOrdinanceRuleCite>152.025.2(a)</StatuteOrdinanceRuleCite>
+                    <ChargeDescriptionText>Drugs - 5th Degree - Possession - Penalty</ChargeDescriptionText>
+                  </Statute>
+                  <SeverityLevelText code="FEL">Felony</SeverityLevelText>
+                  <ChargeLegalDescriptionText>Drugs - 5th Degree - Possession - Penalty</ChargeLegalDescriptionText>
+                </ChargeStatuteSupplemental>
+                <CommunityOfOffenseText code="04BELCTY">Beltrami County</CommunityOfOffenseText>
+                <AccidentDamageText xsi:nil="true" />
+                <ChargeSubjectReference partyKey="8541965" />
+                <ChargePlea>
+                  <PleaDate>2012-12-11</PleaDate>
+                  <PleaJudge>
+                    <JudgeID>
+                      <ID>00081G</ID>
+                    </JudgeID>
+                    <JudgeName>
+                      <PersonPrefixName xsi:nil="true" />
+                      <PersonGivenName>Paul</PersonGivenName>
+                      <PersonMiddleName>T.</PersonMiddleName>
+                      <PersonSurName>Benshoof</PersonSurName>
+                      <PersonSuffixName xsi:nil="true" />
+                      <PersonFullName>Benshoof, Paul T.</PersonFullName>
+                    </JudgeName>
+                    <JudicialAgencyORI>
+                      <ID>MN004015J</ID>
+                    </JudicialAgencyORI>
+                  </PleaJudge>
+                  <PleaDescriptionText code="GUI">Guilty</PleaDescriptionText>
+                  <PleaAmended>
+                    <PleaAmendedReasonText code="PLWITHDEF">Plea withdrawn by defendant</PleaAmendedReasonText>
+                    <PleaAmendedDate>2012-12-11</PleaAmendedDate>
+                  </PleaAmended>
+                </ChargePlea>
+              </Charge>
+              <DispositionEvent>
+                <ChargeDispositionDate>2013-01-14</ChargeDispositionDate>
+                <ChargeDispositionJudge>
+                  <JudgeID>
+                    <ID>00081G</ID>
+                  </JudgeID>
+                  <JudgeName>
+                    <PersonPrefixName xsi:nil="true" />
+                    <PersonGivenName>Paul</PersonGivenName>
+                    <PersonMiddleName>T.</PersonMiddleName>
+                    <PersonSurName>Benshoof</PersonSurName>
+                    <PersonSuffixName xsi:nil="true" />
+                    <PersonFullName>Benshoof, Paul T.</PersonFullName>
+                  </JudgeName>
+                  <JudicialAgencyORI>
+                    <ID>MN004015J</ID>
+                  </JudicialAgencyORI>
+                </ChargeDispositionJudge>
+                <ChargeDispositionText code="PROB">Statutory stay of adjudication</ChargeDispositionText>
+                <ChargeDispositionSeverityLevel code="FEL">Felony</ChargeDispositionSeverityLevel>
+              </DispositionEvent>
+              <CaseDefendant partyKey="8541965">
+                <PartyName currentNameIndicator="true">
+                  <PersonName>
+                    <PersonPrefixName xsi:nil="true" />
+                    <PersonGivenName>JOHN</PersonGivenName>
+                    <PersonMiddleName>JOSEPH</PersonMiddleName>
+                    <PersonSurName>WASLASKI</PersonSurName>
+                    <PersonSuffixName xsi:nil="true" />
+                    <PersonFullName>WASLASKI, JOHN JOSEPH</PersonFullName>
+                  </PersonName>
+                </PartyName>
+                <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+                <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+                  <AddressUSNonStandard>
+                    <AddressLine1>6568 Mac Court</AddressLine1>
+                    <AddressCity>Bemidji</AddressCity>
+                    <AddressState>MN</AddressState>
+                    <AddressZipCode>56601</AddressZipCode>
+                  </AddressUSNonStandard>
+                </PartyAddress>
+                <PartyTelephoneNumber telephoneNumberUsageText="Home" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+                  <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+                  <TelephoneExchangeID>407</TelephoneExchangeID>
+                  <TelephoneSubscriberID>0112</TelephoneSubscriberID>
+                  <TelephoneNumberFullID>218-407-0112</TelephoneNumberFullID>
+                </PartyTelephoneNumber>
+                <PersonBirthDate currentBirthdate="true">1973-12-15</PersonBirthDate>
+                <InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+                <PersonAssignedIDDetails>
+                  <PersonID>
+                    <ID>3384363</ID>
+                  </PersonID>
+                  <PersonDriverLicenseID currentKnownIndicator="false">
+                    <ID>W-242-429-441-952</ID>
+                    <IDJurisdictionCode>MN</IDJurisdictionCode>
+                  </PersonDriverLicenseID>
+                  <PersonDriverLicenseID currentKnownIndicator="true">
+                    <ID>G-207-003-884-209</ID>
+                    <IDJurisdictionCode>MN</IDJurisdictionCode>
+                  </PersonDriverLicenseID>
+                  <PersonStateID currentKnownIndicator="true">
+                    <ID>00412602</ID>
+                    <IDJurisdictionCode>MN</IDJurisdictionCode>
+                  </PersonStateID>
+                </PersonAssignedIDDetails>
+                <PersonPhysicalDetails>
+                  <PersonHeightMeasure measureUnitText="Inches">67</PersonHeightMeasure>
+                  <PersonWeightMeasure measureUnitText="Pounds">155</PersonWeightMeasure>
+                  <PersonEyeColorText code="GRN">Green</PersonEyeColorText>
+                  <PersonHairColorText xsi:nil="true" />
+                  <PersonSexText code="M">Male</PersonSexText>
+                  <PersonEthnicity xsi:nil="true" />
+                  <PersonRace xsi:nil="true" />
+                  <PersonComplexionText xsi:nil="true" />
+                </PersonPhysicalDetails>
+                <RepresentedBy>
+                  <AttorneyReference partyKey="25167" leadAttorneyIndicator="true">
+                    <AttorneyBarNumber>
+                      <ID>272309</ID>
+                    </AttorneyBarNumber>
+                  </AttorneyReference>
+                </RepresentedBy>
+              </CaseDefendant>
+            </ChargeDisposition>
+          </Charges>
+          <SentenceDispositionDetail>
+            <DispositionComponentTypeText code="ACOND">Condition - Adult</DispositionComponentTypeText>
+            <DispositionConditionElement>
+              <ConditionText code="PROBINSTR">Follow all instructions of probation</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="RESERVREST">Restitution reserved</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="CAA">Complete Alcohol Assessment</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <Comment>Department of Corrections must serve as a collateral contact.</Comment>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="EVALREC">Follow recommendations of evaluation</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="NOUSE">No alcohol/controlled substance use</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="NODRUGPOSS">No possession of alcohol or drugs</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="NOBARS">Do Not Enter Bars or Liquor Stores</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="RANDOMTEST">Random testing</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="RSEARCH">Submit to Random Searches</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="TAKEMEDS">Take medications in the prescribed dosage and frequency</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <Comment>Must notify Department of Corrections of all medications taking and any new medications within 24 hours of being prescribed by a doctor.    Must notify doctor of charge.</Comment>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+            <DispositionConditionElement>
+              <ConditionText code="LAWABIDE">Remain law-abiding</ConditionText>
+              <ConditionStartDate>2013-01-14</ConditionStartDate>
+              <DispositionConditionStatus>
+                <StatusDate>2013-01-14</StatusDate>
+                <StatusText>Active</StatusText>
+              </DispositionConditionStatus>
+            </DispositionConditionElement>
+          </SentenceDispositionDetail>
+          <SentenceDispositionDetail>
+            <DispositionComponentTypeText code="FEES">Fees</DispositionComponentTypeText>
+            <DispositionComponentValues>
+              <FieldName code="PROSECUTE">Prosecution Costs/County Attorney</FieldName>
+              <FieldValue>$1000.00</FieldValue>
+            </DispositionComponentValues>
+          </SentenceDispositionDetail>
+          <SentenceDispositionDetail>
+            <DispositionComponentTypeText code="LOC">Local Confinement</DispositionComponentTypeText>
+            <DispositionComponentValues>
+              <FieldName code="AGENCY">Agency</FieldName>
+              <FieldValue>Beltrami County Jail</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="TERMYY">TermYears</FieldName>
+              <FieldValue>0</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="TERMMM">TermMonths</FieldName>
+              <FieldValue>0</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="TERMDD">TermDays</FieldName>
+              <FieldValue>30</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="STAYYY">StayYears</FieldName>
+              <FieldValue>0</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="STAYMM">StayMonths</FieldName>
+              <FieldValue>0</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="STAYDD">StayDays</FieldName>
+              <FieldValue>0</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="CRDFORTIMF">CreditForTimeFlag</FieldName>
+              <FieldValue>true</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="CRDDAY">CreditDays</FieldName>
+              <FieldValue>4</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="WRKRLSEFL">WorkReleaseFlag</FieldName>
+              <FieldValue>true</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="SENTTOSRVFL">SentenceToServeFlag</FieldName>
+              <FieldValue>false</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="IFELEGIBLFL">IfEligibleFlag</FieldName>
+              <FieldValue>true</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="FURLOUGHFL">FurloughFlag</FieldName>
+              <FieldValue>false</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="TIME2SERVDD">TimeToServeDays</FieldName>
+              <FieldValue>30</FieldValue>
+            </DispositionComponentValues>
+            <DispositionDurationalElement>
+              <StartDateTime>2013-01-28T19:00:00-06:00</StartDateTime>
+            </DispositionDurationalElement>
+            <DispositionComponentStatus>
+              <StatusDate>2013-01-14</StatusDate>
+              <StatusText>Active</StatusText>
+            </DispositionComponentStatus>
+          </SentenceDispositionDetail>
+          <SentenceDispositionDetail>
+            <DispositionComponentTypeText code="APRO">Probation - Adult</DispositionComponentTypeText>
+            <DispositionComponentValues>
+              <FieldName code="TYPE">Type</FieldName>
+              <FieldValue>Supervised probation</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="AGENCY">Agency</FieldName>
+              <FieldValue>Dept Corrections Probation</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="TERMYY">TermYears</FieldName>
+              <FieldValue>5</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="TERMMM">TermMonths</FieldName>
+              <FieldValue>0</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="TERMDD">TermDays</FieldName>
+              <FieldValue>0</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="STARTDT">StartDate</FieldName>
+              <FieldValue>2013-01-14</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentValues>
+              <FieldName code="DISCHGDT">DischargeDate</FieldName>
+              <FieldValue>2018-01-14</FieldValue>
+            </DispositionComponentValues>
+            <DispositionComponentStatus>
+              <StatusDate>2013-01-14</StatusDate>
+              <StatusText>Active</StatusText>
+            </DispositionComponentStatus>
+          </SentenceDispositionDetail>
+        </AdultSentence>
+      </CourtDecisions>
+      <InterimConditionsOrder orderEventKey="118599329">
+        <OrderDate>2012-04-13</OrderDate>
+        <OrderExpirationDate>2012-04-16</OrderExpirationDate>
+        <OrderedBy>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </OrderedBy>
+        <ConditionSubject>
+          <PartyReference partyKey="8541965" />
+        </ConditionSubject>
+        <InterimCondition>
+          <InterimConditionText code="PBAIL">Pay bail</InterimConditionText>
+          <InterimConditionAmount>10000</InterimConditionAmount>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NOLEAVE">Do not leave Minnesota without written court approval</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="CURRADD">Keep court/attorney informed of current address</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NOUSE">No alcohol/controlled substance use</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NODRUGPOSS">No possession of alcohol or drugs</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="RANDOMTEST">Random testing</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="LAWABIDE">Remain law-abiding</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="MAKEAPP">Make all future court appearances</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="SBUA">Submit to Initial/Base UA</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="MMCWA">Make and maintain contact with attorney</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="BAILWCONDS">Pay bail with conditions</InterimConditionText>
+          <InterimConditionAmount>5000</InterimConditionAmount>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+      </InterimConditionsOrder>
+      <InterimConditionsOrder orderEventKey="118664449">
+        <OrderDate>2012-04-16</OrderDate>
+        <OrderExpirationDate>2013-01-14</OrderExpirationDate>
+        <OrderedBy>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </OrderedBy>
+        <ConditionSubject>
+          <PartyReference partyKey="8541965" />
+        </ConditionSubject>
+        <InterimCondition>
+          <InterimConditionText code="PBAIL">Pay bail</InterimConditionText>
+          <InterimConditionAmount>10000</InterimConditionAmount>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+      </InterimConditionsOrder>
+      <InterimConditionsOrder orderEventKey="130722451">
+        <OrderDate>2013-01-14</OrderDate>
+        <OrderExpirationDate>2013-01-14</OrderExpirationDate>
+        <OrderedBy>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </OrderedBy>
+        <ConditionSubject>
+          <PartyReference partyKey="8541965" />
+        </ConditionSubject>
+        <InterimCondition>
+          <InterimConditionText code="PBAIL">Pay bail</InterimConditionText>
+          <InterimConditionAmount>10000</InterimConditionAmount>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+      </InterimConditionsOrder>
+      <InterimConditionsOrder orderEventKey="139714031">
+        <OrderDate>2013-07-22</OrderDate>
+        <OrderExpirationDate>2013-08-12</OrderExpirationDate>
+        <OrderedBy>
+          <JudgeID>
+            <ID>00860E</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Shari</PersonGivenName>
+            <PersonMiddleName>R.</PersonMiddleName>
+            <PersonSurName>Schluchter</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Schluchter, Shari R.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </OrderedBy>
+        <ConditionSubject>
+          <PartyReference partyKey="8541965" />
+        </ConditionSubject>
+        <InterimCondition>
+          <InterimConditionText code="JAIL">Jail or lockup</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="LAWABIDE">Remain law-abiding</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="MMCWA">Make and maintain contact with attorney</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="CURRADD">Keep court/attorney informed of current address</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NOLEAVE">Do not leave Minnesota without written court approval</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="MAKEAPP">Make all future court appearances</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NOUSE">No alcohol/controlled substance use</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NODRUGPOSS">No possession of alcohol or drugs</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NOVICTIM">No contact with victim(s)</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="BOOKING">Complete booking</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="OFTAW">Obey Fail To Appear Warning</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+      </InterimConditionsOrder>
+      <InterimConditionsOrder orderEventKey="140650869">
+        <OrderDate>2013-08-12</OrderDate>
+        <OrderedBy>
+          <JudgeID>
+            <ID>00081G</ID>
+          </JudgeID>
+          <JudgeName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Paul</PersonGivenName>
+            <PersonMiddleName>T.</PersonMiddleName>
+            <PersonSurName>Benshoof</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Benshoof, Paul T.</PersonFullName>
+          </JudgeName>
+          <JudicialAgencyORI>
+            <ID>MN004015J</ID>
+          </JudicialAgencyORI>
+        </OrderedBy>
+        <ConditionSubject>
+          <PartyReference partyKey="8541965" />
+        </ConditionSubject>
+        <InterimCondition>
+          <InterimConditionText code="LAWABIDE">Remain law-abiding</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="MMCWA">Make and maintain contact with attorney</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="CURRADD">Keep court/attorney informed of current address</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NOLEAVE">Do not leave Minnesota without written court approval</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="MAKEAPP">Make all future court appearances</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NOUSE">No alcohol/controlled substance use</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NODRUGPOSS">No possession of alcohol or drugs</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="NOVICTIM">No contact with victim(s)</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="BOOKING">Complete booking</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="OFTAW">Obey Fail To Appear Warning</InterimConditionText>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="PBOND">Post bond</InterimConditionText>
+          <InterimConditionAmount>40000</InterimConditionAmount>
+          <InterimConditionCommentText>INCLUDES FILE CR-13-2314</InterimConditionCommentText>
+          <InterimConditionLocationText code="MN004013C">Beltrami County Jail</InterimConditionLocationText>
+        </InterimCondition>
+        <InterimCondition>
+          <InterimConditionText code="PSTBNDWCON">Post bond with conditions</InterimConditionText>
+          <InterimConditionAmount>25000</InterimConditionAmount>
+          <InterimConditionLocationText xsi:nil="true" />
+        </InterimCondition>
+      </InterimConditionsOrder>
+      <FinancialSummary>
+        <Assessment partyKey="8541965">
+          <FinancialCategoryText code="CASEFEES">Case Fines and Fees</FinancialCategoryText>
+          <CurrentBalanceAmount>700</CurrentBalanceAmount>
+          <DueDate>2014-10-15</DueDate>
+        </Assessment>
+      </FinancialSummary>
+      <Bond bondKey="396055">
+        <BondNumber>
+          <ID>SS-15-09841</ID>
+        </BondNumber>
+        <BondTypeText code="BOND">Appearance Bond</BondTypeText>
+        <BondPostedLocationText code="JAIL">Jail / Adult Detention Center</BondPostedLocationText>
+        <BondPostedDate>2012-04-13</BondPostedDate>
+        <BondStatus currentStatusIndicator="true">
+          <BondStatusDate>2013-01-14</BondStatusDate>
+          <BondStatusTypeText code="OTHINACTVE">Other Inactive</BondStatusTypeText>
+          <BondStatusLocationText code="COURTFILE">Court File</BondStatusLocationText>
+          <BondStatusComment>sentenced</BondStatusComment>
+        </BondStatus>
+        <BondStatus currentStatusIndicator="false">
+          <BondStatusDate>2012-04-13</BondStatusDate>
+          <BondStatusTypeText code="POSTED">Posted</BondStatusTypeText>
+          <BondStatusLocationText code="COURTFILE">Court File</BondStatusLocationText>
+        </BondStatus>
+        <BondSubject partyKey="8541965">
+          <PartyName currentNameIndicator="true">
+            <PersonName>
+              <PersonPrefixName xsi:nil="true" />
+              <PersonGivenName>JOHN</PersonGivenName>
+              <PersonMiddleName>JOSEPH</PersonMiddleName>
+              <PersonSurName>WASLASKI</PersonSurName>
+              <PersonSuffixName xsi:nil="true" />
+              <PersonFullName>WASLASKI, JOHN JOSEPH</PersonFullName>
+            </PersonName>
+          </PartyName>
+          <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+          <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+            <AddressUSNonStandard>
+              <AddressLine1>6568 Mac Court</AddressLine1>
+              <AddressCity>Bemidji</AddressCity>
+              <AddressState>MN</AddressState>
+              <AddressZipCode>56601</AddressZipCode>
+            </AddressUSNonStandard>
+          </PartyAddress>
+          <PartyTelephoneNumber telephoneNumberUsageText="Home" invalidTelephoneNumberIndicator="false" currentTelephoneNumberIndicator="true">
+            <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+            <TelephoneExchangeID>407</TelephoneExchangeID>
+            <TelephoneSubscriberID>0112</TelephoneSubscriberID>
+            <TelephoneNumberFullID>218-407-0112</TelephoneNumberFullID>
+          </PartyTelephoneNumber>
+          <PersonBirthDate currentBirthdate="true">1973-12-15</PersonBirthDate>
+          <InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+          <PersonAssignedIDDetails>
+            <PersonID>
+              <ID>3384363</ID>
+            </PersonID>
+            <PersonDriverLicenseID currentKnownIndicator="false">
+              <ID>W-242-429-441-952</ID>
+              <IDJurisdictionCode>MN</IDJurisdictionCode>
+            </PersonDriverLicenseID>
+            <PersonDriverLicenseID currentKnownIndicator="true">
+              <ID>G-207-003-884-209</ID>
+              <IDJurisdictionCode>MN</IDJurisdictionCode>
+            </PersonDriverLicenseID>
+            <PersonStateID currentKnownIndicator="true">
+              <ID>00412602</ID>
+              <IDJurisdictionCode>MN</IDJurisdictionCode>
+            </PersonStateID>
+          </PersonAssignedIDDetails>
+          <PersonPhysicalDetails>
+            <PersonHeightMeasure measureUnitText="Inches">67</PersonHeightMeasure>
+            <PersonWeightMeasure measureUnitText="Pounds">155</PersonWeightMeasure>
+            <PersonEyeColorText code="GRN">Green</PersonEyeColorText>
+            <PersonHairColorText xsi:nil="true" />
+            <PersonSexText code="M">Male</PersonSexText>
+            <PersonEthnicity xsi:nil="true" />
+            <PersonRace xsi:nil="true" />
+            <PersonComplexionText xsi:nil="true" />
+          </PersonPhysicalDetails>
+        </BondSubject>
+        <SuretyBond>
+          <SuretyBondGuarantorText>Area Bail Bonds</SuretyBondGuarantorText>
+          <BondAmount>10000</BondAmount>
+        </SuretyBond>
+        <BondLocationText code="MN004015J">Beltrami County</BondLocationText>
+        <Charge chargeVersionKey="33622765" chargeKey="8558904">
+          <ChargeSequenceID>
+            <ID>1</ID>
+          </ChargeSequenceID>
+          <ChargeFiledDate>2012-04-13</ChargeFiledDate>
+          <Offense>
+            <OffenseDate>2012-04-11</OffenseDate>
+            <OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+          </Offense>
+          <Report>
+            <ReportingAgencyORI>
+              <ID>MN0040000</ID>
+            </ReportingAgencyORI>
+            <ReportingAgencyControlNumber>
+              <ID>15002274</ID>
+            </ReportingAgencyControlNumber>
+          </Report>
+          <ProsecutingAgencyORI>
+            <ID>MN004013A</ID>
+          </ProsecutingAgencyORI>
+          <ChargeStatuteOrdinanceRule type="Statute">
+            <Statute>
+              <StatuteID>
+                <ID>12936</ID>
+              </StatuteID>
+              <StatuteOrdinanceRuleCite>152.025.2(a)(1)</StatuteOrdinanceRuleCite>
+              <ChargeDescriptionText>Drugs - 5th Degree - Possess Schedule 1,2,3,4 - Not Small Amount Marijuana</ChargeDescriptionText>
+            </Statute>
+            <SeverityLevelText code="FEL">Felony</SeverityLevelText>
+            <GeneralOffenseCodeText code="N">Not applicable - GOC</GeneralOffenseCodeText>
+            <MinnesotaOffenseCode>DH5C8</MinnesotaOffenseCode>
+            <ChargeLegalDescriptionText>Drugs - 5th Degree - Possess Schedule 1,2,3,4 - Not Small Amount Marijuana</ChargeLegalDescriptionText>
+          </ChargeStatuteOrdinanceRule>
+          <ChargeStatuteSupplemental type="Statute">
+            <StatuteTypeText code="PEN">Penalty</StatuteTypeText>
+            <Statute>
+              <StatuteID>
+                <ID>12935</ID>
+              </StatuteID>
+              <StatuteOrdinanceRuleCite>152.025.2(a)</StatuteOrdinanceRuleCite>
+              <ChargeDescriptionText>Drugs - 5th Degree - Possession - Penalty</ChargeDescriptionText>
+            </Statute>
+            <SeverityLevelText code="FEL">Felony</SeverityLevelText>
+            <ChargeLegalDescriptionText>Drugs - 5th Degree - Possession - Penalty</ChargeLegalDescriptionText>
+          </ChargeStatuteSupplemental>
+          <CommunityOfOffenseText code="04BELCTY">Beltrami County</CommunityOfOffenseText>
+          <AccidentDamageText xsi:nil="true" />
+          <ChargeSubjectReference partyKey="8541965" />
+        </Charge>
+        <Charge chargeVersionKey="33622766" chargeKey="8558905">
+          <ChargeSequenceID>
+            <ID>2</ID>
+          </ChargeSequenceID>
+          <ChargeFiledDate>2012-04-13</ChargeFiledDate>
+          <Offense>
+            <OffenseDate>2012-04-11</OffenseDate>
+            <OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+          </Offense>
+          <Report>
+            <ReportingAgencyORI>
+              <ID>MN0040000</ID>
+            </ReportingAgencyORI>
+            <ReportingAgencyControlNumber>
+              <ID>15002274</ID>
+            </ReportingAgencyControlNumber>
+          </Report>
+          <ProsecutingAgencyORI>
+            <ID>MN004013A</ID>
+          </ProsecutingAgencyORI>
+          <ChargeStatuteOrdinanceRule type="Statute">
+            <Statute>
+              <StatuteID>
+                <ID>1350</ID>
+              </StatuteID>
+              <StatuteOrdinanceRuleCite>609.53.1</StatuteOrdinanceRuleCite>
+              <ChargeDescriptionText>Receiving Stolen Property</ChargeDescriptionText>
+            </Statute>
+            <SeverityLevelText code="MSD">Misdemeanor</SeverityLevelText>
+            <GeneralOffenseCodeText code="N">Not applicable - GOC</GeneralOffenseCodeText>
+            <MinnesotaOffenseCode>Q3290</MinnesotaOffenseCode>
+            <ChargeLegalDescriptionText>Receiving Stolen Property</ChargeLegalDescriptionText>
+          </ChargeStatuteOrdinanceRule>
+          <ChargeStatuteSupplemental type="Statute">
+            <StatuteTypeText code="PEN">Penalty</StatuteTypeText>
+            <Statute>
+              <StatuteID>
+                <ID>1370</ID>
+              </StatuteID>
+              <StatuteOrdinanceRuleCite>609.535.2a(a)(3)</StatuteOrdinanceRuleCite>
+              <ChargeDescriptionText>Issue Dishonored Check-Value Not More Than $250</ChargeDescriptionText>
+            </Statute>
+            <SeverityLevelText code="MSD">Misdemeanor</SeverityLevelText>
+            <ChargeLegalDescriptionText>Issue Dishonored Check-Value Not More Than $250</ChargeLegalDescriptionText>
+          </ChargeStatuteSupplemental>
+          <CommunityOfOffenseText code="04BELCTY">Beltrami County</CommunityOfOffenseText>
+          <AccidentDamageText xsi:nil="true" />
+          <ChargeSubjectReference partyKey="8541965" />
+        </Charge>
+      </Bond>
+    </CaseInformation>
+    <CaseNullResponses>
+      <CourtXMLGlobalElement>Victim</CourtXMLGlobalElement>
+      <CourtXMLGlobalElement>Witness</CourtXMLGlobalElement>
+      <CourtXMLGlobalElement>Charge</CourtXMLGlobalElement>
+      <CourtXMLGlobalElement>JuvenileInterimPlacementOrder</CourtXMLGlobalElement>
+      <CourtXMLGlobalElement>Warrant</CourtXMLGlobalElement>
+      <CourtXMLGlobalElement>CitationDocument</CourtXMLGlobalElement>
+    </CaseNullResponses>
+  </CaseRequest>
+</CaseGetReply>

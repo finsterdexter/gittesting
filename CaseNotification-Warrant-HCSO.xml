@@ -1,0 +1,327 @@
+<CaseNotification xmlns="http://www.courts.state.mn.us/CourtXML/3" schemaVersion="3:3" messageProducedDateTime="2016-06-06T00:06:38-05:00" updateUserAccount="Integration_Admin">
+  <NotificationAdminHeader caseNumberKey="27VB1511115" caseKey="13639071">
+    <CourtFileNumber>
+      <ID>27-VB-15-11115</ID>
+    </CourtFileNumber>
+    <CaseCountyNumber>27</CaseCountyNumber>
+    <CaseLocationText code="MN027015J">Hennepin Criminal Downtown</CaseLocationText>
+    <BaseCaseTypeText>Traffic</BaseCaseTypeText>
+    <CaseCategoryText code="CR">Criminal</CaseCategoryText>
+    <CaseTitle>State of Minnesota vs Danylle EvaAnn Peardon</CaseTitle>
+    <CaseTypeText code="VIB">Crim/Traf Non-Mand</CaseTypeText>
+    <CaseIsConfidential>false</CaseIsConfidential>
+    <CaseIsSealed>false</CaseIsSealed>
+    <CaseIsRestricted>false</CaseIsRestricted>
+    <PartyIdentifier partyKey="854">
+      <PartyName currentNameIndicator="true">
+        <BusinessName>State of Minnesota</BusinessName>
+      </PartyName>
+      <PartyCaseAssociationText code="JRD">Jurisdiction</PartyCaseAssociationText>
+      <PersonAssignedIDDetails>
+        <PersonID>
+          <ID>63058</ID>
+        </PersonID>
+      </PersonAssignedIDDetails>
+      <RepresentedByAttorneyReference partyKey="1435702">
+        <AttorneyBarNumber>
+          <ID>267338</ID>
+        </AttorneyBarNumber>
+      </RepresentedByAttorneyReference>
+      <RepresentedByAttorneyReference partyKey="1448422">
+        <AttorneyBarNumber>
+          <ID>312368</ID>
+        </AttorneyBarNumber>
+      </RepresentedByAttorneyReference>
+      <RepresentedByAttorneyReference partyKey="16704633" leadAttorneyIndicator="true">
+        <AttorneyBarNumber>
+          <ID>394811</ID>
+        </AttorneyBarNumber>
+      </RepresentedByAttorneyReference>
+    </PartyIdentifier>
+    <PartyIdentifier partyKey="13408684">
+      <PartyName currentNameIndicator="true">
+        <PersonName>
+          <PersonGivenName>Danylle</PersonGivenName>
+          <PersonMiddleName>EvaAnn</PersonMiddleName>
+          <PersonSurName>Peardon</PersonSurName>
+          <PersonFullName>Peardon, Danylle EvaAnn</PersonFullName>
+        </PersonName>
+      </PartyName>
+      <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+      <PersonAssignedIDDetails>
+        <PersonID>
+          <ID>2068611</ID>
+        </PersonID>
+        <PersonDriverLicenseID currentKnownIndicator="false">
+          <ID>T190296612010</ID>
+          <IDJurisdictionCode>MN</IDJurisdictionCode>
+        </PersonDriverLicenseID>
+        <PersonDriverLicenseID currentKnownIndicator="true">
+          <ID>T-190-296-612-010</ID>
+          <IDJurisdictionCode>MN</IDJurisdictionCode>
+        </PersonDriverLicenseID>
+        <PersonOtherID>
+          <ID>629945</ID>
+          <IDTypeText>SILS Identifier</IDTypeText>
+          <IDTypeCodeText>SILS</IDTypeCodeText>
+        </PersonOtherID>
+      </PersonAssignedIDDetails>
+      <RepresentedByAttorneyReference partyKey="149400" leadAttorneyIndicator="true" publicDefenderIndicator="true">
+        <AttorneyBarNumber>
+          <ID>249658</ID>
+        </AttorneyBarNumber>
+      </RepresentedByAttorneyReference>
+      <PersonBirthDate>1976-04-28</PersonBirthDate>
+    </PartyIdentifier>
+    <OffenseTrackingInformation>
+      <ProsecutingAgencyORI>
+        <ID>MN027031A</ID>
+      </ProsecutingAgencyORI>
+      <ReportingAgencyORI>
+        <ID>MNMHP0400</ID>
+      </ReportingAgencyORI>
+      <ReportingAgencyControlNumber>
+        <ID>15508853</ID>
+      </ReportingAgencyControlNumber>
+      <CommunityOfOffenseText code="27MPLS0">Minneapolis</CommunityOfOffenseText>
+      <Citation citationKey="6373310">
+        <CitationNumber>
+          <ID>881503040941</ID>
+        </CitationNumber>
+        <IssuingAgencyORI>
+          <ID>MNMHP0400</ID>
+        </IssuingAgencyORI>
+      </Citation>
+    </OffenseTrackingInformation>
+    <OtherAgencyNumber>
+      <ID>2833964</ID>
+      <IDTypeText>SILS Tracking Number</IDTypeText>
+      <IDTypeCodeText>SILSTRACK</IDTypeCodeText>
+    </OtherAgencyNumber>
+  </NotificationAdminHeader>
+  <WarrantNotification>
+    <TriggeredDateTime>2016-06-06T00:05:37-05:00</TriggeredDateTime>
+    <NotificationEvent>WarrantInactivated</NotificationEvent>
+    <Warrant warrantKey="2520250">
+      <WarrantNumber>
+        <ID>27-VB-15-11115 - 2</ID>
+      </WarrantNumber>
+      <CourtName code="MN027015J">Hennepin Criminal Downtown</CourtName>
+      <IssueDate>2016-05-03</IssueDate>
+      <IssuingJudge>
+        <JudgeID>
+          <ID>00016G</ID>
+        </JudgeID>
+        <JudgeName>
+          <PersonGivenName>Lynn</PersonGivenName>
+          <PersonMiddleName>C.</PersonMiddleName>
+          <PersonSurName>Olson</PersonSurName>
+          <PersonFullName>Olson, Lynn C.</PersonFullName>
+        </JudgeName>
+        <JudicialAgencyORI>
+          <ID>MN002015J</ID>
+        </JudicialAgencyORI>
+      </IssuingJudge>
+      <ServedDate>2016-06-06</ServedDate>
+      <WarrantTypeText code="BWFTA">Bench Warrant-fail to appear at a hearing</WarrantTypeText>
+      <WarrantSubject partyKey="13408684">
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonGivenName>Danyelle</PersonGivenName>
+            <PersonMiddleName>Evann</PersonMiddleName>
+            <PersonSurName>Peardon</PersonSurName>
+            <PersonFullName>Peardon, Danyelle Evann</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonGivenName>Danylle</PersonGivenName>
+            <PersonSurName>Peardon</PersonSurName>
+            <PersonFullName>Peardon, Danylle</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="true">
+          <PersonName>
+            <PersonGivenName>Danylle</PersonGivenName>
+            <PersonMiddleName>EvaAnn</PersonMiddleName>
+            <PersonSurName>Peardon</PersonSurName>
+            <PersonFullName>Peardon, Danylle EvaAnn</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonGivenName>Danyelle</PersonGivenName>
+            <PersonMiddleName>EvaAnn</PersonMiddleName>
+            <PersonSurName>Strong</PersonSurName>
+            <PersonFullName>Strong, Danyelle EvaAnn</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonGivenName>Danylle</PersonGivenName>
+            <PersonMiddleName>E</PersonMiddleName>
+            <PersonSurName>Strong</PersonSurName>
+            <PersonFullName>Strong, Danylle E</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonGivenName>Danylle</PersonGivenName>
+            <PersonMiddleName>Eva Ann</PersonMiddleName>
+            <PersonSurName>Strong</PersonSurName>
+            <PersonFullName>Strong, Danylle Eva Ann</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonGivenName>Danylle</PersonGivenName>
+            <PersonMiddleName>Evaan</PersonMiddleName>
+            <PersonSurName>Strong</PersonSurName>
+            <PersonFullName>Strong, Danylle Evaan</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonGivenName>DANYLLE</PersonGivenName>
+            <PersonMiddleName>EVAANN</PersonMiddleName>
+            <PersonSurName>STRONG</PersonSurName>
+            <PersonFullName>STRONG, DANYLLE EVAANN</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressUSNonStandard>
+            <AddressLine1>139 WEBSTER ST APT 3</AddressLine1>
+            <AddressCity>ANOKA</AddressCity>
+            <AddressState>MN</AddressState>
+            <AddressZipCode>55303</AddressZipCode>
+          </AddressUSNonStandard>
+        </PartyAddress>
+        <PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+          <TelephoneAreaCodeID>763</TelephoneAreaCodeID>
+          <TelephoneExchangeID>559</TelephoneExchangeID>
+          <TelephoneSubscriberID>1402</TelephoneSubscriberID>
+          <TelephoneNumberFullID>763-559-1402</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PartyTelephoneNumber telephoneNumberUsageText="Cell" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+          <TelephoneAreaCodeID>612</TelephoneAreaCodeID>
+          <TelephoneExchangeID>250</TelephoneExchangeID>
+          <TelephoneSubscriberID>5552</TelephoneSubscriberID>
+          <TelephoneNumberFullID>612-250-5552</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PartyTelephoneNumber telephoneNumberUsageText="Home" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+          <TelephoneAreaCodeID>763</TelephoneAreaCodeID>
+          <TelephoneExchangeID>377</TelephoneExchangeID>
+          <TelephoneSubscriberID>0634</TelephoneSubscriberID>
+          <TelephoneNumberFullID>763-377-0634</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PersonBirthDate currentBirthdate="true">1976-04-28</PersonBirthDate>
+        <PersonBirthDate>1979-04-28</PersonBirthDate>
+        <InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+        <PersonAssignedIDDetails>
+          <PersonID>
+            <ID>2068611</ID>
+          </PersonID>
+          <PersonDriverLicenseID currentKnownIndicator="false">
+            <ID>T190296612010</ID>
+            <IDJurisdictionCode>MN</IDJurisdictionCode>
+          </PersonDriverLicenseID>
+          <PersonDriverLicenseID currentKnownIndicator="true">
+            <ID>T-190-296-612-010</ID>
+            <IDJurisdictionCode>MN</IDJurisdictionCode>
+          </PersonDriverLicenseID>
+          <PersonOtherID>
+            <ID>629945</ID>
+            <IDTypeText>SILS Identifier</IDTypeText>
+            <IDTypeCodeText>SILS</IDTypeCodeText>
+          </PersonOtherID>
+        </PersonAssignedIDDetails>
+        <PersonPhysicalDetails>
+          <PersonHeightMeasure measureUnitText="Inches">65</PersonHeightMeasure>
+          <PersonWeightMeasure measureUnitText="Pounds">150</PersonWeightMeasure>
+          <PersonEyeColorText code="HAZ">Hazel</PersonEyeColorText>
+          <PersonSexText code="F">Female</PersonSexText>
+        </PersonPhysicalDetails>
+      </WarrantSubject>
+      <WarrantStatus currentStatusIndicator="true">
+        <WarrantStatusTypeText code="IBWOCLR">Warrant Cleared by Wt Office</WarrantStatusTypeText>
+        <WarrantStatusDate>2016-06-06</WarrantStatusDate>
+        <WarrantStatusTime>00:05:00-05:00</WarrantStatusTime>
+        <WarrantLocation code="CA">Court Administration</WarrantLocation>
+        <WarrantStatusComment>Court</WarrantStatusComment>
+        <CourtORI>
+          <ID>MN027015J</ID>
+        </CourtORI>
+      </WarrantStatus>
+      <WarrantStatus currentStatusIndicator="false">
+        <WarrantStatusTypeText code="ISSUED">Issued Active</WarrantStatusTypeText>
+        <WarrantStatusDate>2016-05-03</WarrantStatusDate>
+        <WarrantStatusTime>08:30:00-05:00</WarrantStatusTime>
+        <WarrantLocation code="SHERIFF">Sheriffs Office</WarrantLocation>
+        <CourtORI>
+          <ID>MN027015J</ID>
+        </CourtORI>
+      </WarrantStatus>
+      <Charge chargeKey="12284192" chargeVersionKey="53592535">
+        <ChargeSequenceID>
+          <ID>1</ID>
+        </ChargeSequenceID>
+        <Offense>
+          <OffenseDate>2015-08-25</OffenseDate>
+          <OffenseTime>16:01:00-05:00</OffenseTime>
+          <OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+          <OffenseTimesAtOrAbout>false</OffenseTimesAtOrAbout>
+          <OffenseLocationText>SB 35W I A27 MPL: @SB 35W I AT DIAMOND L</OffenseLocationText>
+        </Offense>
+        <Report>
+          <ReportingAgencyORI>
+            <ID>MNMHP0400</ID>
+          </ReportingAgencyORI>
+          <ReportingAgencyControlNumber>
+            <ID>15508853</ID>
+          </ReportingAgencyControlNumber>
+          <ReportingOfficial>
+            <BadgeNumber>
+              <ID>304</ID>
+            </BadgeNumber>
+          </ReportingOfficial>
+        </Report>
+        <ProsecutingAgencyORI>
+          <ID>MN027031A</ID>
+        </ProsecutingAgencyORI>
+        <ChargeStatuteOrdinanceRule type="Statute">
+          <Statute>
+            <StatuteID>
+              <ID>3617</ID>
+            </StatuteID>
+            <StatuteOrdinanceRuleCite>169.14.1</StatuteOrdinanceRuleCite>
+            <ChargeDescriptionText>Duty to drive with due care. Speed greater than is reasonable and prudent under the conditions</ChargeDescriptionText>
+          </Statute>
+          <SeverityLevelText code="MSD">Misdemeanor</SeverityLevelText>
+          <MinnesotaOffenseCode>M1111</MinnesotaOffenseCode>
+          <ChargeLegalDescriptionText>Traffic - Duty to Drive with Due Care - Speed Greater than Reasonable</ChargeLegalDescriptionText>
+        </ChargeStatuteOrdinanceRule>
+        <ChargeStatuteSupplemental type="Statute">
+          <StatuteTypeText code="PEN">Penalty</StatuteTypeText>
+          <Statute>
+            <StatuteID>
+              <ID>3840</ID>
+            </StatuteID>
+            <StatuteOrdinanceRuleCite>169.89</StatuteOrdinanceRuleCite>
+            <ChargeDescriptionText>Traffic Regulation - Penalties for Traffic Violations</ChargeDescriptionText>
+          </Statute>
+          <SeverityLevelText code="NONE">No Level</SeverityLevelText>
+          <ChargeLegalDescriptionText>Traffic Regulation - Penalties for Traffic Violations</ChargeLegalDescriptionText>
+        </ChargeStatuteSupplemental>
+        <CommunityOfOffenseText code="27MPLS0">Minneapolis</CommunityOfOffenseText>
+        <ReportToDPSIndicator>true</ReportToDPSIndicator>
+        <ChargeSubjectReference partyKey="13408684" />
+      </Charge>
+      <Bond>
+        <BondAmount>300</BondAmount>
+        <BondTypeText code="BOND">Appearance Bond</BondTypeText>
+      </Bond>
+      <WarrantNarrativeText>or $78 cash alt.  Failed to appear at hearing on 5/3/16.</WarrantNarrativeText>
+    </Warrant>
+  </WarrantNotification>
+</CaseNotification>

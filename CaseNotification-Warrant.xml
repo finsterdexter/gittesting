@@ -1,0 +1,337 @@
+<CaseNotification xmlns:im="http://niem.gov/niem/domains/immigration/1.0" xmlns:ec="http://www.crimnet.state.mn.us/ECharging/Schema/1.0" xmlns:j="http://niem.gov/niem/domains/justice/1.0" xmlns:ch="http://www.crimnet.state.mn.us/MNJustice/ExchangeSchema/1.0/CIBRS" xmlns:scr="http://niem.gov/niem/domains/screening/1.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hcj="http://www.co.hennepin.mn.us/Justice/4" xmlns:mnj="http://www.crimnet.state.mn.us/MNJustice/ExchangeSchema/1.0" xmlns:c="http://niem.gov/niem/common/1.0" xmlns:s="http://niem.gov/niem/structures/1.0" xmlns:u="http://niem.gov/niem/universal/1.0" xmlns="http://www.courts.state.mn.us/CourtXML/3" schemaVersion="3:5" messageProducedDateTime="2014-06-23T10:04:34-05:00" updateUserAccount="LittlerK">
+  <NotificationAdminHeader caseNumberKey="04CR1423" caseKey="11506303">
+    <CourtFileNumber>
+      <ID>04-CR-14-23</ID>
+    </CourtFileNumber>
+    <CaseCountyNumber>04</CaseCountyNumber>
+    <CaseLocationText code="MN004015J">Beltrami County</CaseLocationText>
+    <BaseCaseTypeText>Adult</BaseCaseTypeText>
+    <CaseCategoryText code="CR">Criminal</CaseCategoryText>
+    <CaseTitle>State of Minnesota vs Corey Edward Fisherman</CaseTitle>
+    <CaseTypeText code="CRM">Crim/Traf Mandatory</CaseTypeText>
+    <CaseIsConfidential>false</CaseIsConfidential>
+    <CaseIsSealed>false</CaseIsSealed>
+    <CaseIsRestricted>false</CaseIsRestricted>
+    <CaseStatus currentStatusIndicator="true">
+      <CaseStatusText code="R">Reopened</CaseStatusText>
+      <CaseStatusDate>2014-06-23</CaseStatusDate>
+    </CaseStatus>
+    <CaseStatus currentStatusIndicator="false">
+      <CaseStatusText code="D">Dormant</CaseStatusText>
+      <CaseStatusDate>2014-06-06</CaseStatusDate>
+    </CaseStatus>
+    <CaseStatus currentStatusIndicator="false">
+      <CaseStatusText code="R">Reopened</CaseStatusText>
+      <CaseStatusDate>2014-06-05</CaseStatusDate>
+    </CaseStatus>
+    <CaseStatus currentStatusIndicator="false">
+      <CaseStatusText code="COURT">Under Court Jurisdiction</CaseStatusText>
+      <CaseStatusDate>2014-03-28</CaseStatusDate>
+    </CaseStatus>
+    <CaseStatus currentStatusIndicator="false">
+      <CaseStatusText code="O">Open</CaseStatusText>
+      <CaseStatusDate>2014-01-03</CaseStatusDate>
+    </CaseStatus>
+    <PartyIdentifier partyKey="16360430">
+      <PartyName currentNameIndicator="true">
+        <PersonName>
+          <PersonPrefixName xsi:nil="true" />
+          <PersonGivenName>Corey</PersonGivenName>
+          <PersonMiddleName>Edward</PersonMiddleName>
+          <PersonSurName>Fisherman</PersonSurName>
+          <PersonSuffixName xsi:nil="true" />
+          <PersonFullName>Fisherman, Corey Edward</PersonFullName>
+        </PersonName>
+      </PartyName>
+      <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+      <PersonAssignedIDDetails>
+        <PersonID>
+          <ID>15099887</ID>
+        </PersonID>
+      </PersonAssignedIDDetails>
+      <ProSeIndicator>true</ProSeIndicator>
+      <PersonBirthDate>1984-09-12</PersonBirthDate>
+      <CriminalDefendantAdditionalInformation>
+        <OtherPartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Cory</PersonGivenName>
+            <PersonMiddleName>Edward</PersonMiddleName>
+            <PersonSurName>Fisherman</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Fisherman, Cory Edward</PersonFullName>
+          </PersonName>
+        </OtherPartyName>
+        <PersonPhysicalDetails>
+          <PersonHeightMeasure measureUnitText="Inches">69</PersonHeightMeasure>
+          <PersonWeightMeasure measureUnitText="Pounds">185</PersonWeightMeasure>
+          <PersonEyeColorText code="BRO">Brown</PersonEyeColorText>
+          <PersonHairColorText code="BRO">Brown</PersonHairColorText>
+          <PersonSexText code="M">Male</PersonSexText>
+          <PersonEthnicity xsi:nil="true" />
+          <PersonRace xsi:nil="true" />
+          <PersonComplexionText xsi:nil="true" />
+        </PersonPhysicalDetails>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressUSNonStandard>
+            <AddressLine1>PO Box 460</AddressLine1>
+            <AddressCity>Redby</AddressCity>
+            <AddressState>MN</AddressState>
+            <AddressZipCode>56670</AddressZipCode>
+          </AddressUSNonStandard>
+        </PartyAddress>
+      </CriminalDefendantAdditionalInformation>
+      <Warrant warrantKey="2100757">
+        <WarrantNumber>
+          <ID>04-CR-14-23 - 1</ID>
+        </WarrantNumber>
+        <WarrantTypeText code="VWRNT">Violation or Probation Warrant</WarrantTypeText>
+        <CurrentWarrantStatus>
+          <WarrantStatusTypeText code="SERVED">Served</WarrantStatusTypeText>
+          <WarrantStatusDate>2014-06-23</WarrantStatusDate>
+          <WarrantStatusTime>09:03:00.0000000-06:00</WarrantStatusTime>
+        </CurrentWarrantStatus>
+      </Warrant>
+    </PartyIdentifier>
+    <PartyIdentifier partyKey="854">
+      <PartyName currentNameIndicator="true">
+        <BusinessName>State of Minnesota</BusinessName>
+      </PartyName>
+      <PartyCaseAssociationText code="JRD">Jurisdiction</PartyCaseAssociationText>
+      <PersonAssignedIDDetails>
+        <PersonID>
+          <ID>63058</ID>
+        </PersonID>
+      </PersonAssignedIDDetails>
+      <RepresentedByAttorneyReference partyKey="1100132" leadAttorneyIndicator="true">
+        <AttorneyBarNumber>
+          <ID>236524</ID>
+        </AttorneyBarNumber>
+        <PartyName currentNameIndicator="true">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>DAVID</PersonGivenName>
+            <PersonMiddleName>PAUL</PersonMiddleName>
+            <PersonSurName>FRANK</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>FRANK, DAVID PAUL</PersonFullName>
+          </PersonName>
+        </PartyName>
+      </RepresentedByAttorneyReference>
+    </PartyIdentifier>
+    <PartyIdentifier partyKey="16582774">
+      <PartyName currentNameIndicator="true">
+        <PersonName>
+          <PersonPrefixName xsi:nil="true" />
+          <PersonGivenName>Tonya</PersonGivenName>
+          <PersonSurName>Martin</PersonSurName>
+          <PersonSuffixName xsi:nil="true" />
+          <PersonFullName>Martin, Tonya</PersonFullName>
+        </PersonName>
+      </PartyName>
+      <PartyCaseAssociationText code="DPP">Protected Person DANCO</PartyCaseAssociationText>
+      <PersonBirthDate>1982-07-31</PersonBirthDate>
+    </PartyIdentifier>
+    <PartyIdentifier partyKey="14710866">
+      <PartyName currentNameIndicator="true">
+        <PersonName>
+          <PersonPrefixName xsi:nil="true" />
+          <PersonGivenName>Aeron</PersonGivenName>
+          <PersonSurName>Muckala</PersonSurName>
+          <PersonSuffixName xsi:nil="true" />
+          <PersonFullName>Muckala, Aeron</PersonFullName>
+        </PersonName>
+      </PartyName>
+      <PartyCaseAssociationText code="PRB">Probation Officer</PartyCaseAssociationText>
+      <PersonAssignedIDDetails>
+        <PersonID>
+          <ID>3850643</ID>
+        </PersonID>
+      </PersonAssignedIDDetails>
+    </PartyIdentifier>
+    <OffenseTrackingInformation>
+      <ProsecutingAgencyORI>
+        <ID>MN004013A</ID>
+      </ProsecutingAgencyORI>
+      <ReportingAgencyORI>
+        <ID>MN0040100</ID>
+      </ReportingAgencyORI>
+      <ReportingAgencyControlNumber>
+        <ID>14000122</ID>
+      </ReportingAgencyControlNumber>
+      <CommunityOfOffenseText code="04BEM">Bemidji</CommunityOfOffenseText>
+    </OffenseTrackingInformation>
+    <OtherAgencyNumber>
+      <ID>14CR00030</ID>
+      <IDTypeText>Prosecutor File Number</IDTypeText>
+      <IDTypeCodeText>PRSF</IDTypeCodeText>
+    </OtherAgencyNumber>
+  </NotificationAdminHeader>
+  <WarrantNotification>
+    <TriggeredDateTime>2014-06-23T10:03:30-05:00</TriggeredDateTime>
+    <NotificationEvent>WarrantInactivated</NotificationEvent>
+    <Warrant warrantKey="2100757">
+      <WarrantNumber>
+        <ID>04-CR-14-23 - 1</ID>
+      </WarrantNumber>
+      <CourtName code="MN004015J">Beltrami County</CourtName>
+      <IssueDate>2014-06-06</IssueDate>
+      <IssuingJudge>
+        <JudgeID>
+          <ID>00860E</ID>
+        </JudgeID>
+        <JudgeName>
+          <PersonPrefixName xsi:nil="true" />
+          <PersonGivenName>Shari</PersonGivenName>
+          <PersonMiddleName>R.</PersonMiddleName>
+          <PersonSurName>Schluchter</PersonSurName>
+          <PersonSuffixName xsi:nil="true" />
+          <PersonFullName>Schluchter, Shari R.</PersonFullName>
+        </JudgeName>
+        <JudicialAgencyORI>
+          <ID>MN004015J</ID>
+        </JudicialAgencyORI>
+      </IssuingJudge>
+      <ServedDate>2014-06-23</ServedDate>
+      <WarrantTypeText code="VWRNT">Violation or Probation Warrant</WarrantTypeText>
+      <WarrantSubject partyKey="16360430">
+        <PartyName currentNameIndicator="true">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Corey</PersonGivenName>
+            <PersonMiddleName>Edward</PersonMiddleName>
+            <PersonSurName>Fisherman</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Fisherman, Corey Edward</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyName currentNameIndicator="false">
+          <PersonName>
+            <PersonPrefixName xsi:nil="true" />
+            <PersonGivenName>Cory</PersonGivenName>
+            <PersonMiddleName>Edward</PersonMiddleName>
+            <PersonSurName>Fisherman</PersonSurName>
+            <PersonSuffixName xsi:nil="true" />
+            <PersonFullName>Fisherman, Cory Edward</PersonFullName>
+          </PersonName>
+        </PartyName>
+        <PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+        <PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+          <AddressUSNonStandard>
+            <AddressLine1>PO Box 460</AddressLine1>
+            <AddressCity>Redby</AddressCity>
+            <AddressState>MN</AddressState>
+            <AddressZipCode>56670</AddressZipCode>
+          </AddressUSNonStandard>
+        </PartyAddress>
+        <PartyTelephoneNumber telephoneNumberUsageText="Home" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>751</TelephoneExchangeID>
+          <TelephoneSubscriberID>1565</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-751-1565</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PartyTelephoneNumber telephoneNumberUsageText="Cell" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+          <TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+          <TelephoneExchangeID>461</TelephoneExchangeID>
+          <TelephoneSubscriberID>9131</TelephoneSubscriberID>
+          <TelephoneNumberFullID>218-461-9131</TelephoneNumberFullID>
+        </PartyTelephoneNumber>
+        <PersonBirthDate currentBirthdate="true">1984-09-12</PersonBirthDate>
+        <InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+        <PersonAssignedIDDetails>
+          <PersonID>
+            <ID>15099887</ID>
+          </PersonID>
+        </PersonAssignedIDDetails>
+        <PersonPhysicalDetails>
+          <PersonHeightMeasure measureUnitText="Inches">69</PersonHeightMeasure>
+          <PersonWeightMeasure measureUnitText="Pounds">185</PersonWeightMeasure>
+          <PersonEyeColorText code="BRO">Brown</PersonEyeColorText>
+          <PersonHairColorText code="BRO">Brown</PersonHairColorText>
+          <PersonSexText code="M">Male</PersonSexText>
+          <PersonEthnicity xsi:nil="true" />
+          <PersonRace xsi:nil="true" />
+          <PersonComplexionText xsi:nil="true" />
+        </PersonPhysicalDetails>
+      </WarrantSubject>
+      <WarrantStatus currentStatusIndicator="true">
+        <WarrantStatusTypeText code="SERVED">Served</WarrantStatusTypeText>
+        <WarrantStatusDate>2014-06-23</WarrantStatusDate>
+        <WarrantStatusTime>09:03:00.0000000-06:00</WarrantStatusTime>
+        <WarrantLocation code="SHERIFF">Sheriffs Office</WarrantLocation>
+        <CourtORI>
+          <ID>MN004015J</ID>
+        </CourtORI>
+      </WarrantStatus>
+      <WarrantStatus currentStatusIndicator="false">
+        <WarrantStatusTypeText code="ISSUED">Issued Active</WarrantStatusTypeText>
+        <WarrantStatusDate>2014-06-06</WarrantStatusDate>
+        <WarrantStatusTime>07:30:00.0000000-06:00</WarrantStatusTime>
+        <WarrantLocation code="SHERIFF">Sheriffs Office</WarrantLocation>
+        <CourtORI>
+          <ID>MN004015J</ID>
+        </CourtORI>
+      </WarrantStatus>
+      <Charge chargeKey="10326861" chargeVersionKey="42167314">
+        <ChargeSequenceID>
+          <ID>1</ID>
+        </ChargeSequenceID>
+        <Offense>
+          <OffenseDate>2014-01-02</OffenseDate>
+          <OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+          <OffenseLocationText>Bemidji</OffenseLocationText>
+        </Offense>
+        <Report>
+          <ReportingAgencyORI>
+            <ID>MN0040100</ID>
+          </ReportingAgencyORI>
+          <ReportingAgencyControlNumber>
+            <ID>14000122</ID>
+          </ReportingAgencyControlNumber>
+          <ReportingOfficial>
+            <BadgeNumber>
+              <ID>8567</ID>
+            </BadgeNumber>
+            <Name>Michelle Leffelman</Name>
+          </ReportingOfficial>
+        </Report>
+        <ProsecutingAgencyORI>
+          <ID>MN004013A</ID>
+        </ProsecutingAgencyORI>
+        <ChargeStatuteOrdinanceRule type="Statute">
+          <Statute>
+            <StatuteID>
+              <ID>14681</ID>
+            </StatuteID>
+            <StatuteOrdinanceRuleCite>629.75.2(c)</StatuteOrdinanceRuleCite>
+            <ChargeDescriptionText>DANCO Viol.</ChargeDescriptionText>
+          </Statute>
+          <SeverityLevelText code="GMD">Gross Misdemeanor</SeverityLevelText>
+          <GeneralOffenseCodeText code="N">Not applicable - GOC</GeneralOffenseCodeText>
+          <MinnesotaOffenseCode>N2390</MinnesotaOffenseCode>
+          <ChargeLegalDescriptionText>Domestic Abuse No Contact Order - Violate No Contact Order - within 10 years of previous conviction</ChargeLegalDescriptionText>
+        </ChargeStatuteOrdinanceRule>
+        <ChargeStatuteSupplemental type="Statute">
+          <StatuteTypeText code="PEN">Penalty</StatuteTypeText>
+          <Statute>
+            <StatuteID>
+              <ID>14681</ID>
+            </StatuteID>
+            <StatuteOrdinanceRuleCite>629.75.2(c)</StatuteOrdinanceRuleCite>
+            <ChargeDescriptionText>Domestic Abuse No Contact Order - Violate No Contact Order - within 10 years of previous conviction</ChargeDescriptionText>
+          </Statute>
+          <SeverityLevelText code="GMD">Gross Misdemeanor</SeverityLevelText>
+          <ChargeLegalDescriptionText>Domestic Abuse No Contact Order - Violate No Contact Order - within 10 years of previous conviction</ChargeLegalDescriptionText>
+        </ChargeStatuteSupplemental>
+        <CommunityOfOffenseText code="04BEM">Bemidji</CommunityOfOffenseText>
+        <AccidentDamageText xsi:nil="true" />
+        <ChargeSubjectReference partyKey="16360430" />
+      </Charge>
+      <HoldIndicator>true</HoldIndicator>
+      <WarrantNotes>
+        <NoteDate>2014-06-06</NoteDate>
+        <NoteText>FAILURE TO REMAIN LAW ABIDING.</NoteText>
+      </WarrantNotes>
+    </Warrant>
+  </WarrantNotification>
+</CaseNotification>

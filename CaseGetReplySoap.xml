@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaseGetReply schemaVersion="3:4" messageProducedDateTime="2014-04-01T13:50:21-05:00" xmlns="http://www.courts.state.mn.us/CourtXML/3">
+	<CaseRequest caseNumberKey="10VB1473" caseKey="10547455">
+		<CourtFileNumber>
+			<ID>10-VB-14-73</ID>
+		</CourtFileNumber>
+		<CaseInformation>
+			<CourtCaseHeaderGroup>
+				<CourtFileNumber>
+					<ID>10-VB-14-73</ID>
+				</CourtFileNumber>
+				<CaseCountyNumber>10</CaseCountyNumber>
+				<CaseLocationText code="MN010015J">Carver County</CaseLocationText>
+				<BaseCaseTypeText>Traffic</BaseCaseTypeText>
+				<CaseCategoryText code="CR">Criminal</CaseCategoryText>
+				<CaseTitle>State of Minnesota vs MICKEY MOUSE</CaseTitle>
+				<CaseTypeText code="VIB">Crim/Traf Non-Mand</CaseTypeText>
+				<CaseFiledDateTime>2014-04-01T00:00:00-05:00</CaseFiledDateTime>
+				<CaseIsConfidential>false</CaseIsConfidential>
+				<CaseIsSealed>false</CaseIsSealed>
+				<CaseIsRestricted>false</CaseIsRestricted>
+				<CaseStatus currentStatusIndicator="true">
+					<CaseStatusText code="COURT">Under Court Jurisdiction</CaseStatusText>
+					<CaseStatusDate>2014-04-01</CaseStatusDate>
+				</CaseStatus>
+				<CaseStatus currentStatusIndicator="false">
+					<CaseStatusText code="O">Open</CaseStatusText>
+					<CaseStatusDate>2014-04-01</CaseStatusDate>
+				</CaseStatus>
+				<AllCountsDisposed>true</AllCountsDisposed>
+				<CaseAssignment currentAssignmentIndicator="true">
+					<CourtFileNumber>
+						<ID>10-VB-14-73</ID>
+					</CourtFileNumber>
+					<AssignedCourt code="MN010015J">Carver County</AssignedCourt>
+					<AssignedDate>2014-04-01</AssignedDate>
+				</CaseAssignment>
+			</CourtCaseHeaderGroup>
+			<CourtCaseEvent courtCaseEventKey="136926972">
+				<CaseEventText code="IBDVSCONV">Conviction Sent to DPS</CaseEventText>
+				<CaseEventDateTime>2014-04-01T13:42:00-05:00</CaseEventDateTime>
+			</CourtCaseEvent>
+			<CourtCaseEvent courtCaseEventKey="136926974">
+				<CaseEventText code="ACO">Acceptance and Oath</CaseEventText>
+				<CaseEventDateTime>2014-04-01T13:45:00-05:00</CaseEventDateTime>
+				<PartyReference partyKey="854"/>
+			</CourtCaseEvent>
+			<Attorney partyKey="384621">
+				<PartyName currentNameIndicator="true">
+					<PersonName>
+						<PersonGivenName>E JOHN</PersonGivenName>
+						<PersonSurName>ABDO</PersonSurName>
+						<PersonFullName>ABDO, E JOHN</PersonFullName>
+					</PersonName>
+				</PartyName>
+				<PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+					<AddressUSNonStandard>
+						<AddressLine1>710 NORTHSTAR WEST</AddressLine1>
+						<AddressLine2>625 MARQUETTE</AddressLine2>
+						<AddressCity>MINNEAPOLIS</AddressCity>
+						<AddressState>MN</AddressState>
+						<AddressZipCode>55402</AddressZipCode>
+					</AddressUSNonStandard>
+				</PartyAddress>
+				<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+					<TelephoneAreaCodeID>612</TelephoneAreaCodeID>
+					<TelephoneExchangeID>333</TelephoneExchangeID>
+					<TelephoneSubscriberID>1526</TelephoneSubscriberID>
+					<TelephoneNumberFullID>612-333-1526</TelephoneNumberFullID>
+				</PartyTelephoneNumber>
+				<AttorneyBarNumber>
+					<ID>19X</ID>
+				</AttorneyBarNumber>
+			</Attorney>
+			<Attorney partyKey="240235">
+				<PartyName currentNameIndicator="true">
+					<PersonName>
+						<PersonGivenName>THOMAS</PersonGivenName>
+						<PersonMiddleName>L</PersonMiddleName>
+						<PersonSurName>D'ALBANI</PersonSurName>
+						<PersonFullName>D'ALBANI, THOMAS L</PersonFullName>
+					</PersonName>
+				</PartyName>
+				<PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+					<AddressUSNonStandard>
+						<AddressLine1>205 7TH STREET</AddressLine1>
+						<AddressCity>BEMIDJI</AddressCity>
+						<AddressState>MN</AddressState>
+						<AddressZipCode>56601</AddressZipCode>
+					</AddressUSNonStandard>
+				</PartyAddress>
+				<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+					<TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+					<TelephoneExchangeID>751</TelephoneExchangeID>
+					<TelephoneSubscriberID>4060</TelephoneSubscriberID>
+					<TelephoneNumberFullID>218-751-4060</TelephoneNumberFullID>
+				</PartyTelephoneNumber>
+				<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="false" invalidTelephoneNumberIndicator="false">
+					<TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+					<TelephoneExchangeID>444</TelephoneExchangeID>
+					<TelephoneSubscriberID>4061</TelephoneSubscriberID>
+					<TelephoneNumberFullID>218-444-4061</TelephoneNumberFullID>
+				</PartyTelephoneNumber>
+				<AttorneyBarNumber>
+					<ID>123456</ID>
+				</AttorneyBarNumber>
+			</Attorney>
+			<CaseProsecutor partyKey="240235">
+				<PartyName currentNameIndicator="true">
+					<PersonName>
+						<PersonGivenName>THOMAS</PersonGivenName>
+						<PersonMiddleName>L</PersonMiddleName>
+						<PersonSurName>D'ALBANI</PersonSurName>
+						<PersonFullName>D'ALBANI, THOMAS L</PersonFullName>
+					</PersonName>
+				</PartyName>
+				<PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+					<AddressUSNonStandard>
+						<AddressLine1>205 7TH STREET</AddressLine1>
+						<AddressCity>BEMIDJI</AddressCity>
+						<AddressState>MN</AddressState>
+						<AddressZipCode>56601</AddressZipCode>
+					</AddressUSNonStandard>
+				</PartyAddress>
+				<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+					<TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+					<TelephoneExchangeID>751</TelephoneExchangeID>
+					<TelephoneSubscriberID>4060</TelephoneSubscriberID>
+					<TelephoneNumberFullID>218-751-4060</TelephoneNumberFullID>
+				</PartyTelephoneNumber>
+				<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="false" invalidTelephoneNumberIndicator="false">
+					<TelephoneAreaCodeID>218</TelephoneAreaCodeID>
+					<TelephoneExchangeID>444</TelephoneExchangeID>
+					<TelephoneSubscriberID>4061</TelephoneSubscriberID>
+					<TelephoneNumberFullID>218-444-4061</TelephoneNumberFullID>
+				</PartyTelephoneNumber>
+				<AttorneyBarNumber>
+					<ID>123456</ID>
+				</AttorneyBarNumber>
+			</CaseProsecutor>
+			<SubjectParties>
+				<CaseDefendant partyKey="14612731">
+					<PartyName currentNameIndicator="false">
+						<PersonName>
+							<PersonPrefixName code="Agt">Agent</PersonPrefixName>
+							<PersonGivenName>Rasputin</PersonGivenName>
+							<PersonMiddleName>Longfellow</PersonMiddleName>
+							<PersonSurName>Brekenridge</PersonSurName>
+							<PersonSuffixName code="VII">VII</PersonSuffixName>
+							<PersonFullName>Brekenridge VII, Agt Rasputin Longfellow</PersonFullName>
+						</PersonName>
+					</PartyName>
+					<PartyName currentNameIndicator="false">
+						<PersonName>
+							<PersonPrefixName code="Det">Detective</PersonPrefixName>
+							<PersonGivenName>Rasputin</PersonGivenName>
+							<PersonMiddleName>Longfellow</PersonMiddleName>
+							<PersonSurName>Brekenridge</PersonSurName>
+							<PersonSuffixName code="VII">VII</PersonSuffixName>
+							<PersonFullName>Brekenridge VII, Det Rasputin Longfellow</PersonFullName>
+						</PersonName>
+					</PartyName>
+					<PartyName currentNameIndicator="false">
+						<PersonName>
+							<PersonPrefixName code="Agt">Agent</PersonPrefixName>
+							<PersonGivenName>Rasputin</PersonGivenName>
+							<PersonMiddleName>Longfellow</PersonMiddleName>
+							<PersonSurName>Brekenridge</PersonSurName>
+							<PersonSuffixName code="V">V</PersonSuffixName>
+							<PersonFullName>Brekenridge V  , Agt Rasputin Longfellow</PersonFullName>
+						</PersonName>
+					</PartyName>
+					<PartyName currentNameIndicator="true">
+						<PersonName>
+							<PersonGivenName>MICKEY</PersonGivenName>
+							<PersonSurName>MOUSE</PersonSurName>
+							<PersonFullName>MOUSE, MICKEY</PersonFullName>
+						</PersonName>
+					</PartyName>
+					<PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+					<PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+						<AddressUSStandard>
+							<AddressStreetNumber>123</AddressStreetNumber>
+							<AddressStreet>Test</AddressStreet>
+							<AddressStreetType code="LN">Lane</AddressStreetType>
+							<AddressPostDirectional code="W">West</AddressPostDirectional>
+							<AddressCity>Testopia</AddressCity>
+							<AddressState>MN</AddressState>
+							<AddressZipCode>90210</AddressZipCode>
+						</AddressUSStandard>
+					</PartyAddress>
+					<PartyTelephoneNumber telephoneNumberUsageText="Fax" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>612</TelephoneAreaCodeID>
+						<TelephoneExchangeID>348</TelephoneExchangeID>
+						<TelephoneSubscriberID>9905</TelephoneSubscriberID>
+						<TelephoneNumberFullID>612-348-9905</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyTelephoneNumber telephoneNumberUsageText="Home" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>651</TelephoneAreaCodeID>
+						<TelephoneExchangeID>256</TelephoneExchangeID>
+						<TelephoneSubscriberID>7896</TelephoneSubscriberID>
+						<TelephoneNumberFullID>651-256-7896</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="false" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>245</TelephoneAreaCodeID>
+						<TelephoneExchangeID>244</TelephoneExchangeID>
+						<TelephoneSubscriberID>1245</TelephoneSubscriberID>
+						<TelephoneNumberFullID>245-244-1245</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyTelephoneNumber telephoneNumberUsageText="Cell" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>764</TelephoneAreaCodeID>
+						<TelephoneExchangeID>111</TelephoneExchangeID>
+						<TelephoneSubscriberID>7777</TelephoneSubscriberID>
+						<TelephoneNumberFullID>764-111-7777</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>888</TelephoneAreaCodeID>
+						<TelephoneSuffixID>999</TelephoneSuffixID>
+						<TelephoneNumberFullID>888-6472 x999</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyEmail>success@nerderytest.com</PartyEmail>
+					<PersonBirthDate>1993-07-12</PersonBirthDate>
+					<PersonBirthDate>1993-07-15</PersonBirthDate>
+					<PersonBirthDate>1993-07-30</PersonBirthDate>
+					<PersonBirthDate>1993-11-13</PersonBirthDate>
+					<PersonBirthDate>1993-11-24</PersonBirthDate>
+					<PersonBirthDate>1993-12-05</PersonBirthDate>
+					<PersonBirthDate currentBirthdate="true">1993-12-06</PersonBirthDate>
+					<InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+					<PersonAssignedIDDetails>
+						<PersonID>
+							<ID>6189282</ID>
+						</PersonID>
+						<PersonDriverLicenseID currentKnownIndicator="true">
+							<ID>M-123-456-789-123</ID>
+							<IDJurisdictionCode>MN</IDJurisdictionCode>
+						</PersonDriverLicenseID>
+						<PersonOtherID>
+							<ID>642320</ID>
+							<IDTypeText>SILS Identifier</IDTypeText>
+							<IDTypeCodeText>SILS</IDTypeCodeText>
+						</PersonOtherID>
+					</PersonAssignedIDDetails>
+					<PersonPhysicalDetails>
+						<PersonSexText code="M">Male</PersonSexText>
+					</PersonPhysicalDetails>
+					<RepresentedBy>
+						<AttorneyReference partyKey="384621" leadAttorneyIndicator="true">
+							<AttorneyBarNumber>
+								<ID>19X</ID>
+							</AttorneyBarNumber>
+						</AttorneyReference>
+					</RepresentedBy>
+				</CaseDefendant>
+				<CasePetitionerPlaintiff partyKey="854">
+					<PartyName currentNameIndicator="true">
+						<BusinessName>State of Minnesota</BusinessName>
+					</PartyName>
+					<PartyName currentNameIndicator="false">
+						<BusinessName>The State of Minnesota</BusinessName>
+					</PartyName>
+					<PartyCaseAssociationText code="JRD">Jurisdiction</PartyCaseAssociationText>
+					<PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+						<AddressForeign>
+							<AddressLine1>NONE</AddressLine1>
+						</AddressForeign>
+					</PartyAddress>
+					<RepresentedBy>
+						<AttorneyReference partyKey="240235" leadAttorneyIndicator="true">
+							<AttorneyBarNumber>
+								<ID>123456</ID>
+							</AttorneyBarNumber>
+						</AttorneyReference>
+					</RepresentedBy>
+				</CasePetitionerPlaintiff>
+			</SubjectParties>
+			<HearingTrialSetting hearingKey="136926967">
+				<CourtName code="MN010015J">Carver County</CourtName>
+				<JudicialAgencyORI>
+					<ID>MN010015J</ID>
+				</JudicialAgencyORI>
+				<HearingTypeText code="ARG">Arraignment</HearingTypeText>
+				<Setting settingKey="21609281">
+					<CourtCalendarNameText code="10GEN">New General Carver</CourtCalendarNameText>
+					<CourtSessionNameText sessionKey="3175992">Juveniles</CourtSessionNameText>
+					<HearingDateTimes>
+						<HearingDatetimeStart>2014-04-01T13:00:00-05:00</HearingDatetimeStart>
+					</HearingDateTimes>
+					<SettingStatus>Scheduled</SettingStatus>
+					<InterpreterRequired>false</InterpreterRequired>
+				</Setting>
+			</HearingTrialSetting>
+			<ChargeDispositions>
+				<ChargeDisposition chargeKey="9713704">
+					<Charge chargeKey="9713704" chargeVersionKey="38205257">
+						<ChargeSequenceID>
+							<ID>1</ID>
+						</ChargeSequenceID>
+						<ChargeFiledDate>2014-04-01</ChargeFiledDate>
+						<OffenseID>
+							<ID>R34655</ID>
+						</OffenseID>
+						<OffenseCite>6A.2.09</OffenseCite>
+						<OffenseDescriptionText>Bike Path - Traffic Sign Violation 1st Offense</OffenseDescriptionText>
+						<OffenseDate>2014-03-30</OffenseDate>
+						<OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+						<OffenseOwnerText>Koochiching County</OffenseOwnerText>
+						<OffenseTypeText>Local Ordinance</OffenseTypeText>
+						<SeverityLevelText code="MSD">Misdemeanor</SeverityLevelText>
+						<ChargeLegalDescriptionText>Bike Path - Traffic Sign Violation 1st Offense</ChargeLegalDescriptionText>
+						<ProsecutingAgencyORI>
+							<ID>MN010051A</ID>
+						</ProsecutingAgencyORI>
+						<CommunityOfOffenseText code="COLO">Cologne (0400)</CommunityOfOffenseText>
+						<ReportToDPSIndicator>true</ReportToDPSIndicator>
+						<ChargeSubjectReference partyKey="14612731"/>
+						<ChargePlea>
+							<PleaDate>2014-04-01</PleaDate>
+							<PleaDescriptionText code="NONE">None</PleaDescriptionText>
+						</ChargePlea>
+						<TrialDemand>
+							<TrialDemandType>Speedy Trial</TrialDemandType>
+							<TrialDemandDate>2014-04-01</TrialDemandDate>
+							<TrialDemandAction>Waived</TrialDemandAction>
+						</TrialDemand>
+						<TrialDemand>
+							<TrialDemandType>Jury Trial</TrialDemandType>
+							<TrialDemandDate>2014-04-01</TrialDemandDate>
+							<TrialDemandAction>Demanded</TrialDemandAction>
+						</TrialDemand>
+					</Charge>
+					<DispositionEvent>
+						<ChargeDispositionDate>2014-04-01</ChargeDispositionDate>
+						<ChargeDispositionText code="CONV">Convicted</ChargeDispositionText>
+						<ChargeDispositionSeverityLevel code="MSD">Misdemeanor</ChargeDispositionSeverityLevel>
+					</DispositionEvent>
+					<CaseDefendant partyKey="14612731">
+						<PartyName currentNameIndicator="false">
+							<PersonName>
+								<PersonPrefixName code="Agt">Agent</PersonPrefixName>
+								<PersonGivenName>Rasputin</PersonGivenName>
+								<PersonMiddleName>Longfellow</PersonMiddleName>
+								<PersonSurName>Brekenridge</PersonSurName>
+								<PersonSuffixName code="VII">VII</PersonSuffixName>
+								<PersonFullName>Brekenridge VII, Agt Rasputin Longfellow</PersonFullName>
+							</PersonName>
+						</PartyName>
+						<PartyName currentNameIndicator="false">
+							<PersonName>
+								<PersonPrefixName code="Det">Detective</PersonPrefixName>
+								<PersonGivenName>Rasputin</PersonGivenName>
+								<PersonMiddleName>Longfellow</PersonMiddleName>
+								<PersonSurName>Brekenridge</PersonSurName>
+								<PersonSuffixName code="VII">VII</PersonSuffixName>
+								<PersonFullName>Brekenridge VII, Det Rasputin Longfellow</PersonFullName>
+							</PersonName>
+						</PartyName>
+						<PartyName currentNameIndicator="false">
+							<PersonName>
+								<PersonPrefixName code="Agt">Agent</PersonPrefixName>
+								<PersonGivenName>Rasputin</PersonGivenName>
+								<PersonMiddleName>Longfellow</PersonMiddleName>
+								<PersonSurName>Brekenridge</PersonSurName>
+								<PersonSuffixName code="V">V</PersonSuffixName>
+								<PersonFullName>Brekenridge V  , Agt Rasputin Longfellow</PersonFullName>
+							</PersonName>
+						</PartyName>
+						<PartyName currentNameIndicator="true">
+							<PersonName>
+								<PersonGivenName>MICKEY</PersonGivenName>
+								<PersonSurName>MOUSE</PersonSurName>
+								<PersonFullName>MOUSE, MICKEY</PersonFullName>
+							</PersonName>
+						</PartyName>
+						<PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+						<PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+							<AddressUSStandard>
+								<AddressStreetNumber>123</AddressStreetNumber>
+								<AddressStreet>Test</AddressStreet>
+								<AddressStreetType code="LN">Lane</AddressStreetType>
+								<AddressPostDirectional code="W">West</AddressPostDirectional>
+								<AddressCity>Testopia</AddressCity>
+								<AddressState>MN</AddressState>
+								<AddressZipCode>90210</AddressZipCode>
+							</AddressUSStandard>
+						</PartyAddress>
+						<PartyTelephoneNumber telephoneNumberUsageText="Fax" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+							<TelephoneAreaCodeID>612</TelephoneAreaCodeID>
+							<TelephoneExchangeID>348</TelephoneExchangeID>
+							<TelephoneSubscriberID>9905</TelephoneSubscriberID>
+							<TelephoneNumberFullID>612-348-9905</TelephoneNumberFullID>
+						</PartyTelephoneNumber>
+						<PartyTelephoneNumber telephoneNumberUsageText="Home" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+							<TelephoneAreaCodeID>651</TelephoneAreaCodeID>
+							<TelephoneExchangeID>256</TelephoneExchangeID>
+							<TelephoneSubscriberID>7896</TelephoneSubscriberID>
+							<TelephoneNumberFullID>651-256-7896</TelephoneNumberFullID>
+						</PartyTelephoneNumber>
+						<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="false" invalidTelephoneNumberIndicator="false">
+							<TelephoneAreaCodeID>245</TelephoneAreaCodeID>
+							<TelephoneExchangeID>244</TelephoneExchangeID>
+							<TelephoneSubscriberID>1245</TelephoneSubscriberID>
+							<TelephoneNumberFullID>245-244-1245</TelephoneNumberFullID>
+						</PartyTelephoneNumber>
+						<PartyTelephoneNumber telephoneNumberUsageText="Cell" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+							<TelephoneAreaCodeID>764</TelephoneAreaCodeID>
+							<TelephoneExchangeID>111</TelephoneExchangeID>
+							<TelephoneSubscriberID>7777</TelephoneSubscriberID>
+							<TelephoneNumberFullID>764-111-7777</TelephoneNumberFullID>
+						</PartyTelephoneNumber>
+						<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+							<TelephoneAreaCodeID>888</TelephoneAreaCodeID>
+							<TelephoneSuffixID>999</TelephoneSuffixID>
+							<TelephoneNumberFullID>888-6472 x999</TelephoneNumberFullID>
+						</PartyTelephoneNumber>
+						<PartyEmail>success@nerderytest.com</PartyEmail>
+						<PersonBirthDate>1993-07-12</PersonBirthDate>
+						<PersonBirthDate>1993-07-15</PersonBirthDate>
+						<PersonBirthDate>1993-07-30</PersonBirthDate>
+						<PersonBirthDate>1993-11-13</PersonBirthDate>
+						<PersonBirthDate>1993-11-24</PersonBirthDate>
+						<PersonBirthDate>1993-12-05</PersonBirthDate>
+						<PersonBirthDate currentBirthdate="true">1993-12-06</PersonBirthDate>
+						<InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+						<PersonAssignedIDDetails>
+							<PersonID>
+								<ID>6189282</ID>
+							</PersonID>
+							<PersonDriverLicenseID currentKnownIndicator="true">
+								<ID>M-123-456-789-123</ID>
+								<IDJurisdictionCode>MN</IDJurisdictionCode>
+							</PersonDriverLicenseID>
+							<PersonOtherID>
+								<ID>642320</ID>
+								<IDTypeText>SILS Identifier</IDTypeText>
+								<IDTypeCodeText>SILS</IDTypeCodeText>
+							</PersonOtherID>
+						</PersonAssignedIDDetails>
+						<PersonPhysicalDetails>
+							<PersonSexText code="M">Male</PersonSexText>
+						</PersonPhysicalDetails>
+						<RepresentedBy>
+							<AttorneyReference partyKey="384621" leadAttorneyIndicator="true">
+								<AttorneyBarNumber>
+									<ID>19X</ID>
+								</AttorneyBarNumber>
+							</AttorneyReference>
+						</RepresentedBy>
+					</CaseDefendant>
+				</ChargeDisposition>
+			</ChargeDispositions>
+			<CourtDecisions>
+				<AdultSentence sentenceDelinquencyDispositionKey="6910514" sentenceEventKey="136926971">
+					<PronouncedDate>2014-04-01</PronouncedDate>
+					<SentenceEventText code="SENT">Sentenced</SentenceEventText>
+					<Charges>
+						<ChargeDisposition chargeKey="9713704">
+							<Charge chargeKey="9713704" chargeVersionKey="38205257">
+								<ChargeSequenceID>
+									<ID>1</ID>
+								</ChargeSequenceID>
+								<ChargeFiledDate>2014-04-01</ChargeFiledDate>
+								<OffenseID>
+									<ID>R34655</ID>
+								</OffenseID>
+								<OffenseCite>6A.2.09</OffenseCite>
+								<OffenseDescriptionText>Bike Path - Traffic Sign Violation 1st Offense</OffenseDescriptionText>
+								<OffenseDate>2014-03-30</OffenseDate>
+								<OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+								<OffenseOwnerText>Koochiching County</OffenseOwnerText>
+								<OffenseTypeText>Local Ordinance</OffenseTypeText>
+								<SeverityLevelText code="MSD">Misdemeanor</SeverityLevelText>
+								<ChargeLegalDescriptionText>Bike Path - Traffic Sign Violation 1st Offense</ChargeLegalDescriptionText>
+								<ProsecutingAgencyORI>
+									<ID>MN010051A</ID>
+								</ProsecutingAgencyORI>
+								<CommunityOfOffenseText code="COLO">Cologne (0400)</CommunityOfOffenseText>
+								<ReportToDPSIndicator>true</ReportToDPSIndicator>
+								<ChargeSubjectReference partyKey="14612731"/>
+								<ChargePlea>
+									<PleaDate>2014-04-01</PleaDate>
+									<PleaDescriptionText code="NONE">None</PleaDescriptionText>
+								</ChargePlea>
+								<TrialDemand>
+									<TrialDemandType>Speedy Trial</TrialDemandType>
+									<TrialDemandDate>2014-04-01</TrialDemandDate>
+									<TrialDemandAction>Waived</TrialDemandAction>
+								</TrialDemand>
+								<TrialDemand>
+									<TrialDemandType>Jury Trial</TrialDemandType>
+									<TrialDemandDate>2014-04-01</TrialDemandDate>
+									<TrialDemandAction>Demanded</TrialDemandAction>
+								</TrialDemand>
+							</Charge>
+							<DispositionEvent>
+								<ChargeDispositionDate>2014-04-01</ChargeDispositionDate>
+								<ChargeDispositionText code="CONV">Convicted</ChargeDispositionText>
+								<ChargeDispositionSeverityLevel code="MSD">Misdemeanor</ChargeDispositionSeverityLevel>
+							</DispositionEvent>
+							<CaseDefendant partyKey="14612731">
+								<PartyName currentNameIndicator="false">
+									<PersonName>
+										<PersonPrefixName code="Agt">Agent</PersonPrefixName>
+										<PersonGivenName>Rasputin</PersonGivenName>
+										<PersonMiddleName>Longfellow</PersonMiddleName>
+										<PersonSurName>Brekenridge</PersonSurName>
+										<PersonSuffixName code="VII">VII</PersonSuffixName>
+										<PersonFullName>Brekenridge VII, Agt Rasputin Longfellow</PersonFullName>
+									</PersonName>
+								</PartyName>
+								<PartyName currentNameIndicator="false">
+									<PersonName>
+										<PersonPrefixName code="Det">Detective</PersonPrefixName>
+										<PersonGivenName>Rasputin</PersonGivenName>
+										<PersonMiddleName>Longfellow</PersonMiddleName>
+										<PersonSurName>Brekenridge</PersonSurName>
+										<PersonSuffixName code="VII">VII</PersonSuffixName>
+										<PersonFullName>Brekenridge VII, Det Rasputin Longfellow</PersonFullName>
+									</PersonName>
+								</PartyName>
+								<PartyName currentNameIndicator="false">
+									<PersonName>
+										<PersonPrefixName code="Agt">Agent</PersonPrefixName>
+										<PersonGivenName>Rasputin</PersonGivenName>
+										<PersonMiddleName>Longfellow</PersonMiddleName>
+										<PersonSurName>Brekenridge</PersonSurName>
+										<PersonSuffixName code="V">V</PersonSuffixName>
+										<PersonFullName>Brekenridge V  , Agt Rasputin Longfellow</PersonFullName>
+									</PersonName>
+								</PartyName>
+								<PartyName currentNameIndicator="true">
+									<PersonName>
+										<PersonGivenName>MICKEY</PersonGivenName>
+										<PersonSurName>MOUSE</PersonSurName>
+										<PersonFullName>MOUSE, MICKEY</PersonFullName>
+									</PersonName>
+								</PartyName>
+								<PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+								<PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+									<AddressUSStandard>
+										<AddressStreetNumber>123</AddressStreetNumber>
+										<AddressStreet>Test</AddressStreet>
+										<AddressStreetType code="LN">Lane</AddressStreetType>
+										<AddressPostDirectional code="W">West</AddressPostDirectional>
+										<AddressCity>Testopia</AddressCity>
+										<AddressState>MN</AddressState>
+										<AddressZipCode>90210</AddressZipCode>
+									</AddressUSStandard>
+								</PartyAddress>
+								<PartyTelephoneNumber telephoneNumberUsageText="Fax" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+									<TelephoneAreaCodeID>612</TelephoneAreaCodeID>
+									<TelephoneExchangeID>348</TelephoneExchangeID>
+									<TelephoneSubscriberID>9905</TelephoneSubscriberID>
+									<TelephoneNumberFullID>612-348-9905</TelephoneNumberFullID>
+								</PartyTelephoneNumber>
+								<PartyTelephoneNumber telephoneNumberUsageText="Home" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+									<TelephoneAreaCodeID>651</TelephoneAreaCodeID>
+									<TelephoneExchangeID>256</TelephoneExchangeID>
+									<TelephoneSubscriberID>7896</TelephoneSubscriberID>
+									<TelephoneNumberFullID>651-256-7896</TelephoneNumberFullID>
+								</PartyTelephoneNumber>
+								<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="false" invalidTelephoneNumberIndicator="false">
+									<TelephoneAreaCodeID>245</TelephoneAreaCodeID>
+									<TelephoneExchangeID>244</TelephoneExchangeID>
+									<TelephoneSubscriberID>1245</TelephoneSubscriberID>
+									<TelephoneNumberFullID>245-244-1245</TelephoneNumberFullID>
+								</PartyTelephoneNumber>
+								<PartyTelephoneNumber telephoneNumberUsageText="Cell" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+									<TelephoneAreaCodeID>764</TelephoneAreaCodeID>
+									<TelephoneExchangeID>111</TelephoneExchangeID>
+									<TelephoneSubscriberID>7777</TelephoneSubscriberID>
+									<TelephoneNumberFullID>764-111-7777</TelephoneNumberFullID>
+								</PartyTelephoneNumber>
+								<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+									<TelephoneAreaCodeID>888</TelephoneAreaCodeID>
+									<TelephoneSuffixID>999</TelephoneSuffixID>
+									<TelephoneNumberFullID>888-6472 x999</TelephoneNumberFullID>
+								</PartyTelephoneNumber>
+								<PartyEmail>success@nerderytest.com</PartyEmail>
+								<PersonBirthDate>1993-07-12</PersonBirthDate>
+								<PersonBirthDate>1993-07-15</PersonBirthDate>
+								<PersonBirthDate>1993-07-30</PersonBirthDate>
+								<PersonBirthDate>1993-11-13</PersonBirthDate>
+								<PersonBirthDate>1993-11-24</PersonBirthDate>
+								<PersonBirthDate>1993-12-05</PersonBirthDate>
+								<PersonBirthDate currentBirthdate="true">1993-12-06</PersonBirthDate>
+								<InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+								<PersonAssignedIDDetails>
+									<PersonID>
+										<ID>6189282</ID>
+									</PersonID>
+									<PersonDriverLicenseID currentKnownIndicator="true">
+										<ID>M-123-456-789-123</ID>
+										<IDJurisdictionCode>MN</IDJurisdictionCode>
+									</PersonDriverLicenseID>
+									<PersonOtherID>
+										<ID>642320</ID>
+										<IDTypeText>SILS Identifier</IDTypeText>
+										<IDTypeCodeText>SILS</IDTypeCodeText>
+									</PersonOtherID>
+								</PersonAssignedIDDetails>
+								<PersonPhysicalDetails>
+									<PersonSexText code="M">Male</PersonSexText>
+								</PersonPhysicalDetails>
+								<RepresentedBy>
+									<AttorneyReference partyKey="384621" leadAttorneyIndicator="true">
+										<AttorneyBarNumber>
+											<ID>19X</ID>
+										</AttorneyBarNumber>
+									</AttorneyReference>
+								</RepresentedBy>
+							</CaseDefendant>
+						</ChargeDisposition>
+						<SentenceChargeSeverityLevel code="MSD">Misdemeanor</SentenceChargeSeverityLevel>
+					</Charges>
+					<SentenceDispositionDetail>
+						<DispositionComponentTypeText code="FEES">Fees</DispositionComponentTypeText>
+						<DispositionComponentValues>
+							<FieldName code="CERTCOPY">Certified Copy - Single</FieldName>
+							<FieldValue>$14.00</FieldValue>
+						</DispositionComponentValues>
+					</SentenceDispositionDetail>
+				</AdultSentence>
+			</CourtDecisions>
+			<InterimConditionsOrder orderEventKey="136926968">
+				<OrderDate>2014-04-01</OrderDate>
+				<OrderedBy>
+					<JudgeID>
+						<ID>00115E</ID>
+					</JudgeID>
+					<JudgeName>
+						<PersonGivenName>Douglas</PersonGivenName>
+						<PersonMiddleName>P.</PersonMiddleName>
+						<PersonSurName>Anderson</PersonSurName>
+						<PersonFullName>Anderson, Douglas P.</PersonFullName>
+					</JudgeName>
+					<JudicialAgencyORI>
+						<ID>MN049015J</ID>
+					</JudicialAgencyORI>
+				</OrderedBy>
+				<ConditionSubject>
+					<PartyReference partyKey="14612731"/>
+				</ConditionSubject>
+				<InterimCondition>
+					<InterimConditionText code="ALIVE25">Alive at 25</InterimConditionText>
+				</InterimCondition>
+			</InterimConditionsOrder>
+			<Bond bondKey="468571">
+				<BondTypeText code="CASHBAIL">Cash Bail</BondTypeText>
+				<BondPostedDate>2014-04-01</BondPostedDate>
+				<BondStatus currentStatusIndicator="true">
+					<BondStatusDate>2014-04-01</BondStatusDate>
+					<BondStatusTypeText code="POSTED">Posted</BondStatusTypeText>
+					<BondStatusLocationText code="COURTFILE">Court File</BondStatusLocationText>
+				</BondStatus>
+				<BondSubject partyKey="14612731">
+					<PartyName currentNameIndicator="false">
+						<PersonName>
+							<PersonPrefixName code="Agt">Agent</PersonPrefixName>
+							<PersonGivenName>Rasputin</PersonGivenName>
+							<PersonMiddleName>Longfellow</PersonMiddleName>
+							<PersonSurName>Brekenridge</PersonSurName>
+							<PersonSuffixName code="VII">VII</PersonSuffixName>
+							<PersonFullName>Brekenridge VII, Agt Rasputin Longfellow</PersonFullName>
+						</PersonName>
+					</PartyName>
+					<PartyName currentNameIndicator="false">
+						<PersonName>
+							<PersonPrefixName code="Det">Detective</PersonPrefixName>
+							<PersonGivenName>Rasputin</PersonGivenName>
+							<PersonMiddleName>Longfellow</PersonMiddleName>
+							<PersonSurName>Brekenridge</PersonSurName>
+							<PersonSuffixName code="VII">VII</PersonSuffixName>
+							<PersonFullName>Brekenridge VII, Det Rasputin Longfellow</PersonFullName>
+						</PersonName>
+					</PartyName>
+					<PartyName currentNameIndicator="false">
+						<PersonName>
+							<PersonPrefixName code="Agt">Agent</PersonPrefixName>
+							<PersonGivenName>Rasputin</PersonGivenName>
+							<PersonMiddleName>Longfellow</PersonMiddleName>
+							<PersonSurName>Brekenridge</PersonSurName>
+							<PersonSuffixName code="V">V</PersonSuffixName>
+							<PersonFullName>Brekenridge V  , Agt Rasputin Longfellow</PersonFullName>
+						</PersonName>
+					</PartyName>
+					<PartyName currentNameIndicator="true">
+						<PersonName>
+							<PersonGivenName>MICKEY</PersonGivenName>
+							<PersonSurName>MOUSE</PersonSurName>
+							<PersonFullName>MOUSE, MICKEY</PersonFullName>
+						</PersonName>
+					</PartyName>
+					<PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+					<PartyAddress caseCorrespondenceIndicator="false" partyCorrespondenceIndicator="true" currentKnownAddressIndicator="true" undeliverableIndicator="false">
+						<AddressUSStandard>
+							<AddressStreetNumber>123</AddressStreetNumber>
+							<AddressStreet>Test</AddressStreet>
+							<AddressStreetType code="LN">Lane</AddressStreetType>
+							<AddressPostDirectional code="W">West</AddressPostDirectional>
+							<AddressCity>Testopia</AddressCity>
+							<AddressState>MN</AddressState>
+							<AddressZipCode>90210</AddressZipCode>
+						</AddressUSStandard>
+					</PartyAddress>
+					<PartyTelephoneNumber telephoneNumberUsageText="Fax" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>612</TelephoneAreaCodeID>
+						<TelephoneExchangeID>348</TelephoneExchangeID>
+						<TelephoneSubscriberID>9905</TelephoneSubscriberID>
+						<TelephoneNumberFullID>612-348-9905</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyTelephoneNumber telephoneNumberUsageText="Home" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>651</TelephoneAreaCodeID>
+						<TelephoneExchangeID>256</TelephoneExchangeID>
+						<TelephoneSubscriberID>7896</TelephoneSubscriberID>
+						<TelephoneNumberFullID>651-256-7896</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="false" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>245</TelephoneAreaCodeID>
+						<TelephoneExchangeID>244</TelephoneExchangeID>
+						<TelephoneSubscriberID>1245</TelephoneSubscriberID>
+						<TelephoneNumberFullID>245-244-1245</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyTelephoneNumber telephoneNumberUsageText="Cell" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>764</TelephoneAreaCodeID>
+						<TelephoneExchangeID>111</TelephoneExchangeID>
+						<TelephoneSubscriberID>7777</TelephoneSubscriberID>
+						<TelephoneNumberFullID>764-111-7777</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyTelephoneNumber telephoneNumberUsageText="Work" currentTelephoneNumberIndicator="true" invalidTelephoneNumberIndicator="false">
+						<TelephoneAreaCodeID>888</TelephoneAreaCodeID>
+						<TelephoneSuffixID>999</TelephoneSuffixID>
+						<TelephoneNumberFullID>888-6472 x999</TelephoneNumberFullID>
+					</PartyTelephoneNumber>
+					<PartyEmail>success@nerderytest.com</PartyEmail>
+					<PersonBirthDate>1993-07-12</PersonBirthDate>
+					<PersonBirthDate>1993-07-15</PersonBirthDate>
+					<PersonBirthDate>1993-07-30</PersonBirthDate>
+					<PersonBirthDate>1993-11-13</PersonBirthDate>
+					<PersonBirthDate>1993-11-24</PersonBirthDate>
+					<PersonBirthDate>1993-12-05</PersonBirthDate>
+					<PersonBirthDate currentBirthdate="true">1993-12-06</PersonBirthDate>
+					<InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+					<PersonAssignedIDDetails>
+						<PersonID>
+							<ID>6189282</ID>
+						</PersonID>
+						<PersonDriverLicenseID currentKnownIndicator="true">
+							<ID>M-123-456-789-123</ID>
+							<IDJurisdictionCode>MN</IDJurisdictionCode>
+						</PersonDriverLicenseID>
+						<PersonOtherID>
+							<ID>642320</ID>
+							<IDTypeText>SILS Identifier</IDTypeText>
+							<IDTypeCodeText>SILS</IDTypeCodeText>
+						</PersonOtherID>
+					</PersonAssignedIDDetails>
+					<PersonPhysicalDetails>
+						<PersonSexText code="M">Male</PersonSexText>
+					</PersonPhysicalDetails>
+				</BondSubject>
+				<CashBond>
+					<BondAmount>111</BondAmount>
+				</CashBond>
+				<BondLocationText code="MN010015J">Carver County</BondLocationText>
+				<Charge chargeKey="9713704" chargeVersionKey="38205259">
+					<ChargeSequenceID>
+						<ID>1</ID>
+					</ChargeSequenceID>
+					<ChargeFiledDate>2014-04-01</ChargeFiledDate>
+					<OffenseID>
+						<ID>R34655</ID>
+					</OffenseID>
+					<OffenseCite>6A.2.09</OffenseCite>
+					<OffenseDescriptionText>Bike Path - Traffic Sign Violation 1st Offense</OffenseDescriptionText>
+					<OffenseDate>2014-03-30</OffenseDate>
+					<OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+					<OffenseOwnerText>Koochiching County</OffenseOwnerText>
+					<OffenseTypeText>Local Ordinance</OffenseTypeText>
+					<SeverityLevelText code="MSD">Misdemeanor</SeverityLevelText>
+					<ChargeLegalDescriptionText>Bike Path - Traffic Sign Violation 1st Offense</ChargeLegalDescriptionText>
+					<ProsecutingAgencyORI>
+						<ID>MN010051A</ID>
+					</ProsecutingAgencyORI>
+					<CommunityOfOffenseText code="COLO">Cologne (0400)</CommunityOfOffenseText>
+					<ReportToDPSIndicator>true</ReportToDPSIndicator>
+					<ChargeSubjectReference partyKey="14612731"/>
+				</Charge>
+			</Bond>
+		</CaseInformation>
+		<CaseNullResponses>
+			<CourtXMLGlobalElement>Victim</CourtXMLGlobalElement>
+			<CourtXMLGlobalElement>Witness</CourtXMLGlobalElement>
+			<CourtXMLGlobalElement>Charge</CourtXMLGlobalElement>
+			<CourtXMLGlobalElement>Warrant</CourtXMLGlobalElement>
+			<CourtXMLGlobalElement>CitationDocument</CourtXMLGlobalElement>
+		</CaseNullResponses>
+	</CaseRequest>
+</CaseGetReply>

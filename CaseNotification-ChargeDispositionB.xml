@@ -1,0 +1,99 @@
+<CaseNotification schemaVersion="3:1" messageProducedDateTime="2007-04-30T10:49:43-05:00" updateUserAccount="SmithJ" xmlns="http://www.courts.state.mn.us/CourtXML/3">
+	<NotificationAdminHeader caseNumberKey="87CR07Scenario5" caseKey="1117749">
+		<CourtFileNumber>
+			<ID>87-CR-07-Scenario5</ID>
+		</CourtFileNumber>
+		<CaseCountyNumber>87</CaseCountyNumber>
+		<CaseLocationText code="MN087015J">Yellow Medicine County</CaseLocationText>
+		<BaseCaseTypeText>Adult</BaseCaseTypeText>
+		<CaseCategoryText code="CR">Criminal</CaseCategoryText>
+		<CaseTitle>State of Minnesota vs Clanry Ogavitz
+{Integration Scenario}</CaseTitle>
+		<CaseTypeText code="CRM">Crim/Traf Mandatory</CaseTypeText>
+		<CaseIsConfidential>false</CaseIsConfidential>
+		<CaseIsSealed>false</CaseIsSealed>
+		<CaseIsRestricted>false</CaseIsRestricted>
+		<PartyIdentifier partyKey="854">
+			<PartyName currentNameIndicator="true">
+				<BusinessName>The State of Minnesota</BusinessName>
+			</PartyName>
+			<PartyCaseAssociationText code="JRD">Jurisdiction</PartyCaseAssociationText>
+		</PartyIdentifier>
+		<PartyIdentifier partyKey="1209516">
+			<PartyName currentNameIndicator="true">
+				<PersonName>
+					<PersonGivenName>Clanry</PersonGivenName>
+					<PersonSurName>Ogavitz</PersonSurName>
+					<PersonFullName>Ogavitz, Clanry</PersonFullName>
+				</PersonName>
+			</PartyName>
+			<PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+			<PersonAssignedIDDetails>
+				<PersonID>
+					<ID>1032031</ID>
+				</PersonID>
+			</PersonAssignedIDDetails>
+			<PersonBirthDate>1977-01-11</PersonBirthDate>
+		</PartyIdentifier>
+		<OffenseTrackingInformation>
+			<CommunityOfOffenseText code="87CA">Canby</CommunityOfOffenseText>
+		</OffenseTrackingInformation>
+	</NotificationAdminHeader>
+	<ChargeDispositionNotification>
+		<TriggeredDateTime>2007-04-30T10:49:29-05:00</TriggeredDateTime>
+		<NotificationEvent>DispositionAdded</NotificationEvent>
+		<ChargeDisposition chargeKey="1332714">
+			<Charge chargeKey="1332714" chargeVersionKey="5046735">
+				<ChargeSequenceID>
+					<ID>1</ID>
+				</ChargeSequenceID>
+				<ChargeFiledDate>2007-04-30</ChargeFiledDate>
+				<Offense>
+					<OffenseDate>2007-04-25</OffenseDate>
+					<OffenseDatesOnOrAbout>false</OffenseDatesOnOrAbout>
+				</Offense>
+				<ChargeStatuteOrdinanceRule type="Statute">
+					<Statute>
+						<StatuteID>
+							<ID>9838</ID>
+						</StatuteID>
+						<StatuteOrdinanceRuleCite>609.3243</StatuteOrdinanceRuleCite>
+						<ChargeDescriptionText>Loitering with Intent to Participate in Prostitution</ChargeDescriptionText>
+					</Statute>
+					<SeverityLevelText code="PMD">Petty Misdemeanor</SeverityLevelText>
+					<ChargeLegalDescriptionText>Loitering with Intent to Participate in Prostitution</ChargeLegalDescriptionText>
+				</ChargeStatuteOrdinanceRule>
+				<CommunityOfOffenseText code="87CA">Canby</CommunityOfOffenseText>
+				<ChargeSubjectReference partyKey="1209516"/>
+			</Charge>
+			<DispositionEvent>
+				<ChargeDispositionDate>2007-04-30</ChargeDispositionDate>
+				<ChargeDispositionText code="CONV">Convicted</ChargeDispositionText>
+				<ChargeDispositionSeverityLevel code="PMD">Petty Misdemeanor</ChargeDispositionSeverityLevel>
+			</DispositionEvent>
+			<CaseDefendant partyKey="1209516">
+				<PartyName currentNameIndicator="true">
+					<PersonName>
+						<PersonGivenName>Clanry</PersonGivenName>
+						<PersonSurName>Ogavitz</PersonSurName>
+						<PersonFullName>Ogavitz, Clanry</PersonFullName>
+					</PersonName>
+				</PartyName>
+				<PartyCaseAssociationText code="DFD">Defendant</PartyCaseAssociationText>
+				<PersonBirthDate currentBirthdate="true">1977-01-11</PersonBirthDate>
+				<InterpreterNeededIndicator>false</InterpreterNeededIndicator>
+				<PersonAssignedIDDetails>
+					<PersonID>
+						<ID>1032031</ID>
+					</PersonID>
+				</PersonAssignedIDDetails>
+				<PersonPhysicalDetails>
+					<PersonSexText code="M">Male</PersonSexText>
+				</PersonPhysicalDetails>
+				<RepresentedBy>
+					<ProSeIndicator>true</ProSeIndicator>
+				</RepresentedBy>
+			</CaseDefendant>
+		</ChargeDisposition>
+	</ChargeDispositionNotification>
+</CaseNotification>
