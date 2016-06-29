@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<root>garbage</root>
 <CaseGetReply xmlns:im="http://niem.gov/niem/domains/immigration/1.0" xmlns:ec="http://www.crimnet.state.mn.us/ECharging/Schema/1.0" xmlns:j="http://niem.gov/niem/domains/justice/1.0" xmlns:hcj="http://www.co.hennepin.mn.us/Justice/4" xmlns:ch="http://www.crimnet.state.mn.us/MNJustice/ExchangeSchema/1.0/CIBRS" xmlns:scr="http://niem.gov/niem/domains/screening/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mnj="http://www.crimnet.state.mn.us/MNJustice/ExchangeSchema/1.0" xmlns:c="http://niem.gov/niem/common/1.0" xmlns:s="http://niem.gov/niem/structures/1.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:u="http://niem.gov/niem/universal/1.0" messageProducedDateTime="2015-12-21T14:36:22-06:00" schemaVersion="3:4">
   <CaseRequest caseKey="13784133" caseNumberKey="04CR153778" xmlns="http://www.courts.state.mn.us/CourtXML/3">
     <CourtFileNumber>
